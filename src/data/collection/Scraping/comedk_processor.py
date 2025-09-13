@@ -3,7 +3,7 @@ import logging
 import os
 import re
 from typing import List, Dict
-from base_processor import BaseCutoffProcessor, find_pdf_files, logger
+from data.collection.Scraping.base_processor import BaseCutoffProcessor, find_pdf_files, logger
 
 class COMEDKProcessor(BaseCutoffProcessor):
     def __init__(self):
