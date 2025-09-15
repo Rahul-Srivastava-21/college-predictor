@@ -1,0 +1,46 @@
+# Only PyTorch with CUDA 11.8 and TensorFlow CPU version
+
+# PDF Extraction
+camelot-py[cv]
+python-docx>=0.8.11
+
+# Data Processing
+pandas>=1.5.0
+numpy>=1.21.0
+openpyxl>=3.0.10
+PyPDF2>=3.0.0
+tabula-py>=2.5.0
+
+# Machine Learning
+scikit-learn>=1.1.0
+xgboost>=1.6.0
+lightgbm>=3.3.0  # ⚠️ GPU support requires manual build
+tensorflow-cpu==2.17.1
+
+# PyTorch with CUDA 11.8
+torch==2.5.1+cu118
+torchvision==0.20.1+cu118
+torchaudio==2.5.1+cu118
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# Database
+psycopg2-binary>=2.9.0
+sqlalchemy>=1.4.0
+
+# Web Framework
+streamlit>=1.15.0
+plotly>=5.11.0
+folium>=0.12.0
+
+# Utilities
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+python-dotenv>=0.19.0
+
+# Development
+jupyter>=1.0.0
+pytest>=7.0.0
+black>=22.0.0
+
+matplotlib>=3.5.0
+seaborn>=0.11.0
