@@ -28,7 +28,6 @@ except Exception:
 # ------------------ Helper Functions ------------------
 
 def extract_code_num(code: str):
-    """Extract numeric part of college code like E045 -> 45"""
     m = re.match(r"E(\d{3})", code)
     return int(m.group(1)) if m else None
 
@@ -36,7 +35,6 @@ def clean_cell_text(text: str):
     return " ".join(text.split()) if text else ""
 
 def dump_debug(table, code, reason):
-    """Dump a suspicious table for manual inspection; returns dumped path"""
     os.makedirs(DEBUG_DIR, exist_ok=True)
     safe_code = code.replace("/", "_").replace("\\", "_")
     fname = f"{safe_code}_{reason}.csv"
@@ -48,14 +46,24 @@ def dump_debug(table, code, reason):
     logging.warning(f"⚠️ Dumped suspicious table for {code} → {path}")
     return path
 
-def iter_blocks(doc):
-    """Yield paragraphs and tables in document order"""
+def iter_blocks(doc, filepath):
+    """
+    Iterate over paragraphs and tables in a DOCX.
+    If we encounter a <w:t> with None text, we log a warning and
+    abort processing this file (Option 2).
+    """
     for block in doc.element.body:
         if block.tag.endswith("p"):
-            text = "".join([t.text for t in block.iter() if t.tag.endswith("t")]).strip()
+            texts = []
+            for t in block.iter():
+                if t.tag.endswith("t"):
+                    if t.text is None:
+                        logging.warning(f"⚠️ Skipping file {filepath} due to empty <w:t> element")
+                        return  # stop processing this file
+                    texts.append(t.text)
+            text = "".join(texts).strip()
             yield ("p", text)
         elif block.tag.endswith("tbl"):
-            # map xml <tbl> to python-docx Table object
             for t in doc.tables:
                 if t._element == block:
                     yield ("tbl", t)
@@ -64,10 +72,6 @@ def iter_blocks(doc):
 # ------------------ Main Processing ------------------
 
 def process_docx(filepath, year, round_num):
-    """
-    Process a single DOCX file and append rows to OUTPUT_FILE (streaming).
-    Returns a stats dict: rows, tables, dumps, placeholders, colleges_found, warnings(list)
-    """
     logging.info(f"\n📂 Processing {filepath}...")
     doc = Document(filepath)
 
@@ -78,26 +82,23 @@ def process_docx(filepath, year, round_num):
     colleges_found = 0
     warnings = []
 
-    seen_rows = set()  # dedupe (college_code, branch, category, cutoff)
-
+    seen_rows = set()
     last_code_num = None
     current_college_code = None
     current_college_name = None
 
-    # open output in append mode and write as we parse
     with open(OUTPUT_FILE, "a", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
 
-        for kind, content in iter_blocks(doc):
+        # use iter_blocks with filepath for logging context
+        for kind, content in iter_blocks(doc, filepath) or []:
             if kind == "p":
-                # detect college header like: E001 University of ...
                 match = re.match(r"(E\d{3})\s+(.+)", content)
                 if match:
                     current_college_code, current_college_name = match.groups()
                     colleges_found += 1
                     current_code_num = extract_code_num(current_college_code)
 
-                    # GAP DETECTION: insert placeholders if codes jumped
                     if last_code_num is not None and current_code_num is not None and current_code_num != last_code_num + 1:
                         missing = list(range(last_code_num + 1, current_code_num))
                         for miss in missing:
@@ -105,7 +106,6 @@ def process_docx(filepath, year, round_num):
                             msg = f"❌ Missing expected college {fake_code} (detected gap {last_code_num} -> {current_code_num})"
                             logging.warning(msg)
                             warnings.append(msg)
-                            # write placeholder row
                             writer.writerow([fake_code, "MISSING_COLLEGE", "", "", "", year, round_num, "CET"])
                             placeholders += 1
 
@@ -116,7 +116,6 @@ def process_docx(filepath, year, round_num):
                 table = content
                 tables_processed += 1
 
-                # if no current college header seen yet, dump and skip (table before first header)
                 if current_college_code is None:
                     msg = f"Table before any college header in {os.path.basename(filepath)} (table #{tables_processed}). Dumping."
                     logging.warning(msg)
@@ -125,12 +124,9 @@ def process_docx(filepath, year, round_num):
                     debug_dumps += 1
                     continue
 
-                # skip tiny tables
                 if len(table.rows) <= 1:
-                    # nothing to do
                     continue
 
-                # extract categories from the first row (cells[1:] skipping branch column)
                 categories = [clean_cell_text(c.text) for c in table.rows[0].cells[1:] if clean_cell_text(c.text)]
                 if not categories:
                     msg = f"No categories found for {current_college_code} ({current_college_name}); dumping table."
@@ -140,41 +136,29 @@ def process_docx(filepath, year, round_num):
                     debug_dumps += 1
                     continue
 
-                # iterate data rows
                 found_any = False
                 for row in table.rows[1:]:
                     cells = [clean_cell_text(c.text) for c in row.cells]
                     if not cells or not cells[0]:
                         continue
                     branch = " ".join(cells[0].splitlines()).strip()
-                    cutoffs = cells[1:len(categories) + 1]
+                    cutoffs = cells[1:len(categories)+1]
 
                     for cat, cutoff in zip(categories, cutoffs):
                         if cutoff and cutoff != "--":
                             key = (current_college_code, branch, cat, cutoff)
                             if key in seen_rows:
                                 continue
-                            writer.writerow([
-                                current_college_code,
-                                current_college_name,
-                                cat,
-                                branch,
-                                cutoff,
-                                year,
-                                round_num,
-                                "CET"
-                            ])
+                            writer.writerow([current_college_code, current_college_name, cat, branch, cutoff, year, round_num, "CET"])
                             seen_rows.add(key)
                             rows_written += 1
                             found_any = True
 
                 if not found_any:
-                    # Possibly this table had rows but all duplicates / placeholders — log it
                     msg = f"No new rows written for {current_college_code} ({current_college_name}) from table #{tables_processed}."
                     logging.info(msg)
 
-    # return stats for aggregator
-    stats = {
+    return {
         "rows": rows_written,
         "tables": tables_processed,
         "dumps": debug_dumps,
@@ -182,42 +166,30 @@ def process_docx(filepath, year, round_num):
         "colleges": colleges_found,
         "warnings": warnings
     }
-    return stats
 
 # ------------------ Main Script ------------------
 
 def main():
-    # Ensure debug dir exists
     Path(DEBUG_DIR).mkdir(parents=True, exist_ok=True)
 
-    # Start output with header
     with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow([
-            "College_Code", "College_Name", "Category", "Branch",
-            "Cutoff_Rank", "Year", "Round", "Exam_Type"
-        ])
+        writer.writerow(["College_Code", "College_Name", "Category", "Branch", "Cutoff_Rank", "Year", "Round", "Exam_Type"])
 
-    # collect files
-    files = sorted([fn for fn in os.listdir(INPUT_DIR) if fn.endswith(".docx") and fn.startswith("kcet-round")])
+    files = sorted([fn for fn in os.listdir(INPUT_DIR) if fn.endswith(".docx") and fn.startswith(("kcetg-round", "kceth-round"))])
     if not files:
-        logging.error("No DOCX files found matching 'kcet-round*.docx' in INPUT_DIR.")
+        logging.error("No DOCX files found matching expected patterns in INPUT_DIR.")
         return
 
-    total_rows = 0
-    total_tables = 0
-    total_dumps = 0
-    total_placeholders = 0
-    total_colleges = 0
+    total_rows = total_tables = total_dumps = total_placeholders = total_colleges = 0
     all_warnings = []
 
-    # progress bar wrapper
     for fname in tqdm(files, desc="Processing DOCX files", total=len(files)):
-        match = re.match(r"kcet-round(\d+)-(\d{4})\.docx", fname)
+        match = re.match(r"(kcetg|kceth)-round(\d+)-(\d{4})\.docx", fname)
         if not match:
             logging.warning(f"Skipping file with unexpected name format: {fname}")
             continue
-        round_num, year = match.groups()
+        prefix, round_num, year = match.groups()  # ✅ fixed unpacking
         filepath = os.path.join(INPUT_DIR, fname)
 
         stats = process_docx(filepath, year, round_num)
@@ -230,7 +202,6 @@ def main():
 
         logging.info(f"✅ Wrote {stats['rows']} rows from {fname} (tables={stats['tables']}, colleges={stats['colleges']}, dumps={stats['dumps']})")
 
-    # Final summary
     print("\n📊 Summary Report")
     print(f"   Files processed      : {len(files)}")
     print(f"   Colleges detected    : {total_colleges}")

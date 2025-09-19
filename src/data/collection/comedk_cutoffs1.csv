@@ -1,0 +1,456 @@
+College_Code,College_Name,Category,Branch,Cutoff_Rank,Year,Round,Exam_Type
+E001,Acharya Institute of Technology,GM,AE-Aeronautical Engineering,63649,2023,4,COMEDK
+E001,Acharya Institute of Technology,GM,AI-Artificial Intelligence & Machine Learning,27873,2023,4,COMEDK
+E001,Acharya Institute of Technology,GM,BT-Biotechnology,46368,2023,4,COMEDK
+E001,Acharya Institute of Technology,GM,CD-Computer Science & Engineering (Data Science),24270,2023,4,COMEDK
+E001,Acharya Institute of Technology,GM,CS-Computer Science & Engineering,20937,2023,4,COMEDK
+E001,Acharya Institute of Technology,GM,CV-Civil Engineering,36369,2023,4,COMEDK
+E001,Acharya Institute of Technology,GM,EC-Electronics & Communication Engineering,41637,2023,4,COMEDK
+E001,Acharya Institute of Technology,GM,EE-Electrical & Electronics Engineering,48068,2023,4,COMEDK
+E001,Acharya Institute of Technology,GM,IS-Information Science & Engineering,27122,2023,4,COMEDK
+E003,ACS College of Engineering,GM,AS-Aerospace Engineering,63464,2023,4,COMEDK
+E003,ACS College of Engineering,GM,CS-Computer Science & Engineering,73745,2023,4,COMEDK
+E004,Adichunchanagiri Institute of Technology,GM,CS-Computer Science & Engineering,73700,2023,4,COMEDK
+E004,Adichunchanagiri Institute of Technology,GM,IS-Information Science & Engineering,35856,2023,4,COMEDK
+E005,Akash Institute Of Engineering & Technology,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",22744,2023,4,COMEDK
+E005,Akash Institute Of Engineering & Technology,GM,CS-Computer Science & Engineering,19761,2023,4,COMEDK
+E006,Alva's Institute of Engineering and Technology,GM,CS-Computer Science & Engineering,60696,2023,4,COMEDK
+E007,A M C Engineering College,GM,AE-Aeronautical Engineering,62861,2023,4,COMEDK
+E007,A M C Engineering College,GM,AI-Artificial Intelligence & Machine Learning,55365,2023,4,COMEDK
+E007,A M C Engineering College,GM,CD-Computer Science & Engineering (Data Science),68129,2023,4,COMEDK
+E007,A M C Engineering College,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",75956,2023,4,COMEDK
+E007,A M C Engineering College,GM,CS-Computer Science & Engineering,50480,2023,4,COMEDK
+E007,A M C Engineering College,GM,EC-Electronics & Communication Engineering,68737,2023,4,COMEDK
+E007,A M C Engineering College,GM,IS-Information Science & Engineering,76262,2023,4,COMEDK
+E007,A M C Engineering College,GM,ME-Mechanical Engineering,71936,2023,4,COMEDK
+E009,Angadi Institute of Technology and Management,GM,CS-Computer Science & Engineering,53132,2023,4,COMEDK
+E011,APS College of Engineering,GM,CS-Computer Science & Engineering,37527,2023,4,COMEDK
+E011,APS College of Engineering,GM,CY-Computer Science & Engineering (Cyber Security),59477,2023,4,COMEDK
+E012,Atria Institute of Technology,GM,AI-Artificial Intelligence & Machine Learning,42289,2023,4,COMEDK
+E012,Atria Institute of Technology,GM,CD-Computer Science & Engineering (Data Science),37947,2023,4,COMEDK
+E012,Atria Institute of Technology,GM,CG-Computer Science & Design,77098,2023,4,COMEDK
+E012,Atria Institute of Technology,GM,CS-Computer Science & Engineering,33565,2023,4,COMEDK
+E012,Atria Institute of Technology,GM,EC-Electronics & Communication Engineering,69526,2023,4,COMEDK
+E012,Atria Institute of Technology,GM,IS-Information Science & Engineering,54758,2023,4,COMEDK
+E015,B.N.M. Institute of Technology,GM,AI-Artificial Intelligence & Machine Learning,18822,2023,4,COMEDK
+E015,B.N.M. Institute of Technology,GM,CS-Computer Science & Engineering,13468,2023,4,COMEDK
+E015,B.N.M. Institute of Technology,GM,EC-Electronics & Communication Engineering,27483,2023,4,COMEDK
+E015,B.N.M. Institute of Technology,GM,EE-Electrical & Electronics Engineering,60313,2023,4,COMEDK
+E015,B.N.M. Institute of Technology,GM,IS-Information Science & Engineering,16054,2023,4,COMEDK
+E016,K.L.E Technological University (Formerly known as BVBCET),GM,AM-Automation & Robotics Engineering,47768,2023,4,COMEDK
+E016,K.L.E Technological University (Formerly known as BVBCET),GM,BT-Biotechnology,62274,2023,4,COMEDK
+E016,K.L.E Technological University (Formerly known as BVBCET),GM,CA-Computer Science & Engineering (Artificial Intelligence),16522,2023,4,COMEDK
+E016,K.L.E Technological University (Formerly known as BVBCET),GM,CS-Computer Science & Engineering,13698,2023,4,COMEDK
+E016,K.L.E Technological University (Formerly known as BVBCET),GM,EC-Electronics & Communication Engineering,25804,2023,4,COMEDK
+E016,K.L.E Technological University (Formerly known as BVBCET),GM,EE-Electrical & Electronics Engineering,40471,2023,4,COMEDK
+E016,K.L.E Technological University (Formerly known as BVBCET),GM,ME-Mechanical Engineering,64639,2023,4,COMEDK
+E016,K.L.E Technological University (Formerly known as BVBCET),GM,VD-Electronics Engineering (VLSI Design & Technology),33313,2023,4,COMEDK
+E017,Ballari Institute of Technology & Management,GM,CS-Computer Science & Engineering,61548,2023,4,COMEDK
+E018,Bangalore College of Engineering & Technology,GM,AI-Artificial Intelligence & Machine Learning,68789,2023,4,COMEDK
+E018,Bangalore College of Engineering & Technology,GM,CS-Computer Science & Engineering,45561,2023,4,COMEDK
+E018,Bangalore College of Engineering & Technology,GM,EC-Electronics & Communication Engineering,59965,2023,4,COMEDK
+E018,Bangalore College of Engineering & Technology,GM,EE-Electrical & Electronics Engineering,34877,2023,4,COMEDK
+E018,Bangalore College of Engineering & Technology,GM,IS-Information Science & Engineering,64020,2023,4,COMEDK
+E019,Bangalore Institute of Technology,GM,AI-Artificial Intelligence & Machine Learning,7559,2023,4,COMEDK
+E019,Bangalore Institute of Technology,GM,CD-Computer Science & Engineering (Data Science),6552,2023,4,COMEDK
+E019,Bangalore Institute of Technology,GM,CS-Computer Science & Engineering,5790,2023,4,COMEDK
+E019,Bangalore Institute of Technology,GM,CV-Civil Engineering,75937,2023,4,COMEDK
+E019,Bangalore Institute of Technology,GM,EC-Electronics & Communication Engineering,13459,2023,4,COMEDK
+E019,Bangalore Institute of Technology,GM,EE-Electrical & Electronics Engineering,23490,2023,4,COMEDK
+E019,Bangalore Institute of Technology,GM,EI-Electronics & Instrumentation Engineering,27074,2023,4,COMEDK
+E019,Bangalore Institute of Technology,GM,ET-Electronics & Telecommunication Engineering,20839,2023,4,COMEDK
+E019,Bangalore Institute of Technology,GM,"IC-Computer Science & Engineering (IOT & Cyber SecurityIncluding Block Chain Technology)",7711,2023,4,COMEDK
+E019,Bangalore Institute of Technology,GM,IS-Information Science & Engineering,8587,2023,4,COMEDK
+E019,Bangalore Institute of Technology,GM,ME-Mechanical Engineering,76686,2023,4,COMEDK
+E019,Bangalore Institute of Technology,GM,RI-Robotics & Artificial Intelligence,10370,2023,4,COMEDK
+E019,Bangalore Institute of Technology,GM,VD-Electronics Engineering (VLSI Design & Technology),26252,2023,4,COMEDK
+E020,Bangalore Technological Institute,GM,AI-Artificial Intelligence & Machine Learning,38471,2023,4,COMEDK
+E020,Bangalore Technological Institute,GM,CE-Computer Engineering,53387,2023,4,COMEDK
+E020,Bangalore Technological Institute,GM,CS-Computer Science & Engineering,54897,2023,4,COMEDK
+E020,Bangalore Technological Institute,GM,EC-Electronics & Communication Engineering,56128,2023,4,COMEDK
+E021,Bapuji Institute of Engineering & Technology,GM,AI-Artificial Intelligence & Machine Learning,71042,2023,4,COMEDK
+E021,Bapuji Institute of Engineering & Technology,GM,CD-Computer Science & Engineering (Data Science),68933,2023,4,COMEDK
+E021,Bapuji Institute of Engineering & Technology,GM,CS-Computer Science & Engineering,43225,2023,4,COMEDK
+E021,Bapuji Institute of Engineering & Technology,GM,IS-Information Science & Engineering,76228,2023,4,COMEDK
+E024,Basaveshwar Engineering College,GM,AI-Artificial Intelligence & Machine Learning,76235,2023,4,COMEDK
+E024,Basaveshwar Engineering College,GM,CS-Computer Science & Engineering,39661,2023,4,COMEDK
+E024,Basaveshwar Engineering College,GM,EC-Electronics & Communication Engineering,66757,2023,4,COMEDK
+E024,Basaveshwar Engineering College,GM,IS-Information Science & Engineering,71140,2023,4,COMEDK
+E026,"B L D E A's V.P. Dr. P G Halakatti College of Engg &Technology",GM,CS-Computer Science & Engineering,51655,2023,4,COMEDK
+E027,B M S College of Engineering,GM,AD-Artificial Intelligence & Data Science,2451,2023,4,COMEDK
+E027,B M S College of Engineering,GM,AI-Artificial Intelligence & Machine Learning,2713,2023,4,COMEDK
+E027,B M S College of Engineering,GM,AS-Aerospace Engineering,10048,2023,4,COMEDK
+E027,B M S College of Engineering,GM,BT-Biotechnology,21385,2023,4,COMEDK
+E027,B M S College of Engineering,GM,CB-Computer Science & Business Systems,2375,2023,4,COMEDK
+E027,B M S College of Engineering,GM,CD-Computer Science & Engineering (Data Science),1562,2023,4,COMEDK
+E027,B M S College of Engineering,GM,CH-Chemical Engineering,25950,2023,4,COMEDK
+E027,B M S College of Engineering,GM,CS-Computer Science & Engineering,1319,2023,4,COMEDK
+E027,B M S College of Engineering,GM,CV-Civil Engineering,31536,2023,4,COMEDK
+E027,B M S College of Engineering,GM,EC-Electronics & Communication Engineering,3608,2023,4,COMEDK
+E027,B M S College of Engineering,GM,EI-Electronics & Instrumentation Engineering,6436,2023,4,COMEDK
+E027,B M S College of Engineering,GM,ET-Electronics & Telecommunication Engineering,5172,2023,4,COMEDK
+E027,B M S College of Engineering,GM,"IC-Computer Science & Engineering (IOT & Cyber SecurityIncluding Block Chain Technology)",1964,2023,4,COMEDK
+E027,B M S College of Engineering,GM,IS-Information Science & Engineering,2235,2023,4,COMEDK
+E027,B M S College of Engineering,GM,MD-Medical Electronics Engineering,31872,2023,4,COMEDK
+E027,B M S College of Engineering,GM,ME-Mechanical Engineering,12810,2023,4,COMEDK
+E028,BMS Institute of Technology & Management,GM,AI-Artificial Intelligence & Machine Learning,6974,2023,4,COMEDK
+E028,BMS Institute of Technology & Management,GM,CB-Computer Science & Business Systems,5903,2023,4,COMEDK
+E028,BMS Institute of Technology & Management,GM,CS-Computer Science & Engineering,4365,2023,4,COMEDK
+E028,BMS Institute of Technology & Management,GM,CV-Civil Engineering,51536,2023,4,COMEDK
+E028,BMS Institute of Technology & Management,GM,EC-Electronics & Communication Engineering,9898,2023,4,COMEDK
+E028,BMS Institute of Technology & Management,GM,EE-Electrical & Electronics Engineering,20224,2023,4,COMEDK
+E028,BMS Institute of Technology & Management,GM,ET-Electronics & Telecommunication Engineering,16533,2023,4,COMEDK
+E028,BMS Institute of Technology & Management,GM,IS-Information Science & Engineering,6373,2023,4,COMEDK
+E028,BMS Institute of Technology & Management,GM,ME-Mechanical Engineering,43636,2023,4,COMEDK
+E030,Brindavan College of Engineering,GM,AI-Artificial Intelligence & Machine Learning,29529,2023,4,COMEDK
+E030,Brindavan College of Engineering,GM,CS-Computer Science & Engineering,74209,2023,4,COMEDK
+E032,CMR Institute of Technolog,GM,AD-Artificial Intelligence & Data Science,18545,2023,4,COMEDK
+E032,CMR Institute of Technolog,GM,AI-Artificial Intelligence & Machine Learning,18417,2023,4,COMEDK
+E032,CMR Institute of Technolog,GM,CD-Computer Science & Engineering (Data Science),12986,2023,4,COMEDK
+E032,CMR Institute of Technolog,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",12702,2023,4,COMEDK
+E032,CMR Institute of Technolog,GM,CS-Computer Science & Engineering,11123,2023,4,COMEDK
+E032,CMR Institute of Technolog,GM,EC-Electronics & Communication Engineering,26160,2023,4,COMEDK
+E032,CMR Institute of Technolog,GM,IS-Information Science & Engineering,16165,2023,4,COMEDK
+E033,Cambridge Institute of Technology,GM,AI-Artificial Intelligence & Machine Learning,29512,2023,4,COMEDK
+E033,Cambridge Institute of Technology,GM,CS-Computer Science & Engineering,20666,2023,4,COMEDK
+E033,Cambridge Institute of Technology,GM,EC-Electronics & Communication Engineering,57104,2023,4,COMEDK
+E033,Cambridge Institute of Technology,GM,EE-Electrical & Electronics Engineering,60544,2023,4,COMEDK
+E033,Cambridge Institute of Technology,GM,"IC-Computer Science & Engineering (IOT & Cyber SecurityIncluding Block Chain Technology)",30933,2023,4,COMEDK
+E033,Cambridge Institute of Technology,GM,IS-Information Science & Engineering,26663,2023,4,COMEDK
+E035,Channabasaveshwara Institute of Technology,GM,CS-Computer Science & Engineering,70415,2023,4,COMEDK
+E035,Channabasaveshwara Institute of Technology,GM,EC-Electronics & Communication Engineering,47867,2023,4,COMEDK
+E037,City Engineering College,GM,CS-Computer Science & Engineering,57451,2023,4,COMEDK
+E039,Dayananda Sagar Academy of Technology & Management,GM,AI-Artificial Intelligence & Machine Learning,24483,2023,4,COMEDK
+E039,Dayananda Sagar Academy of Technology & Management,GM,CA-Computer Science & Engineering (Artificial Intelligence),21795,2023,4,COMEDK
+E039,Dayananda Sagar Academy of Technology & Management,GM,CD-Computer Science & Engineering (Data Science),22827,2023,4,COMEDK
+E039,Dayananda Sagar Academy of Technology & Management,GM,CG-Computer Science & Design,29596,2023,4,COMEDK
+E039,Dayananda Sagar Academy of Technology & Management,GM,CS-Computer Science & Engineering,19056,2023,4,COMEDK
+E039,Dayananda Sagar Academy of Technology & Management,GM,CY-Computer Science & Engineering (Cyber Security),26402,2023,4,COMEDK
+E039,Dayananda Sagar Academy of Technology & Management,GM,EC-Electronics & Communication Engineering,36761,2023,4,COMEDK
+E039,Dayananda Sagar Academy of Technology & Management,GM,"IC-Computer Science & Engineering (IOT & Cyber SecurityIncluding Block Chain Technology)",28260,2023,4,COMEDK
+E039,Dayananda Sagar Academy of Technology & Management,GM,IS-Information Science & Engineering,25926,2023,4,COMEDK
+E040,Dayananda Sagar College of Engineering,GM,AE-Aeronautical Engineering,26369,2023,4,COMEDK
+E040,Dayananda Sagar College of Engineering,GM,AI-Artificial Intelligence & Machine Learning,4405,2023,4,COMEDK
+E040,Dayananda Sagar College of Engineering,GM,AU-Automobile Engineering,48416,2023,4,COMEDK
+E040,Dayananda Sagar College of Engineering,GM,BT-Biotechnology,48873,2023,4,COMEDK
+E040,Dayananda Sagar College of Engineering,GM,CB-Computer Science & Business Systems,4909,2023,4,COMEDK
+E040,Dayananda Sagar College of Engineering,GM,CD-Computer Science & Engineering (Data Science),3620,2023,4,COMEDK
+E040,Dayananda Sagar College of Engineering,GM,CG-Computer Science & Design,5055,2023,4,COMEDK
+E040,Dayananda Sagar College of Engineering,GM,CH-Chemical Engineering,41727,2023,4,COMEDK
+E040,Dayananda Sagar College of Engineering,GM,CS-Computer Science & Engineering,3272,2023,4,COMEDK
+E040,Dayananda Sagar College of Engineering,GM,CV-Civil Engineering,60117,2023,4,COMEDK
+E040,Dayananda Sagar College of Engineering,GM,CY-Computer Science & Engineering (Cyber Security),4212,2023,4,COMEDK
+E040,Dayananda Sagar College of Engineering,GM,EC-Electronics & Communication Engineering,8701,2023,4,COMEDK
+E040,Dayananda Sagar College of Engineering,GM,EE-Electrical & Electronics Engineering,19208,2023,4,COMEDK
+E040,Dayananda Sagar College of Engineering,GM,EI-Electronics & Instrumentation Engineering,20223,2023,4,COMEDK
+E040,Dayananda Sagar College of Engineering,GM,ET-Electronics & Telecommunication Engineering,14202,2023,4,COMEDK
+E040,Dayananda Sagar College of Engineering,GM,"IC-Computer Science & Engineering (IOT & Cyber SecurityIncluding Block Chain Technology)",4666,2023,4,COMEDK
+E040,Dayananda Sagar College of Engineering,GM,IS-Information Science & Engineering,4590,2023,4,COMEDK
+E040,Dayananda Sagar College of Engineering,GM,MD-Medical Electronics Engineering,48505,2023,4,COMEDK
+E040,Dayananda Sagar College of Engineering,GM,ME-Mechanical Engineering,37173,2023,4,COMEDK
+E040,Dayananda Sagar College of Engineering,GM,RI-Robotics & Artificial Intelligence,6269,2023,4,COMEDK
+E041,Don Bosco Institute of Technology,GM,AD-Artificial Intelligence & Data Science,58545,2023,4,COMEDK
+E041,Don Bosco Institute of Technology,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",64419,2023,4,COMEDK
+E041,Don Bosco Institute of Technology,GM,CS-Computer Science & Engineering,54090,2023,4,COMEDK
+E041,Don Bosco Institute of Technology,GM,EC-Electronics & Communication Engineering,66091,2023,4,COMEDK
+E041,Don Bosco Institute of Technology,GM,IS-Information Science & Engineering,64905,2023,4,COMEDK
+E042,Dr. Ambedkar Institute of Technology,GM,AE-Aeronautical Engineering,24689,2023,4,COMEDK
+E042,Dr. Ambedkar Institute of Technology,GM,AI-Artificial Intelligence & Machine Learning,23437,2023,4,COMEDK
+E042,Dr. Ambedkar Institute of Technology,GM,CB-Computer Science & Business Systems,23940,2023,4,COMEDK
+E042,Dr. Ambedkar Institute of Technology,GM,CS-Computer Science & Engineering,18065,2023,4,COMEDK
+E042,Dr. Ambedkar Institute of Technology,GM,EC-Electronics & Communication Engineering,29544,2023,4,COMEDK
+E042,Dr. Ambedkar Institute of Technology,GM,IS-Information Science & Engineering,20447,2023,4,COMEDK
+E043,"Yenepoya Institute of Technology  (formerly known as Dr.M V Shetty Institute of Technology)",GM,AI-Artificial Intelligence & Machine Learning,51098,2023,4,COMEDK
+E043,"Yenepoya Institute of Technology  (formerly known as Dr.M V Shetty Institute of Technology)",GM,IS-Information Science & Engineering,38259,2023,4,COMEDK
+E046,East Point College of Engineering & Technology,GM,AD-Artificial Intelligence & Data Science,56575,2023,4,COMEDK
+E046,East Point College of Engineering & Technology,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",66312,2023,4,COMEDK
+E046,East Point College of Engineering & Technology,GM,CS-Computer Science & Engineering,77173,2023,4,COMEDK
+E048,East West Institute of Technology,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",58486,2023,4,COMEDK
+E048,East West Institute of Technology,GM,CS-Computer Science & Engineering,74818,2023,4,COMEDK
+E048,East West Institute of Technology,GM,IS-Information Science & Engineering,57736,2023,4,COMEDK
+E049,Garden City University,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",46431,2023,4,COMEDK
+E050,Global Academy of Technology,GM,AD-Artificial Intelligence & Data Science,33366,2023,4,COMEDK
+E050,Global Academy of Technology,GM,AI-Artificial Intelligence & Machine Learning,36561,2023,4,COMEDK
+E050,Global Academy of Technology,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",32606,2023,4,COMEDK
+E050,Global Academy of Technology,GM,CS-Computer Science & Engineering,26982,2023,4,COMEDK
+E050,Global Academy of Technology,GM,EC-Electronics & Communication Engineering,74628,2023,4,COMEDK
+E050,Global Academy of Technology,GM,IS-Information Science & Engineering,34675,2023,4,COMEDK
+E051,G M Institute of Technology,GM,CS-Computer Science & Engineering,75825,2023,4,COMEDK
+E053,Gopalan College of Engineering & Management,GM,CS-Computer Science & Engineering,60147,2023,4,COMEDK
+E055,G.S.S.S. Institute of Engineering & Technology for Women,GM,AD-Artificial Intelligence & Data Science,72047,2023,4,COMEDK
+E055,G.S.S.S. Institute of Engineering & Technology for Women,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",43964,2023,4,COMEDK
+E055,G.S.S.S. Institute of Engineering & Technology for Women,GM,CS-Computer Science & Engineering,32546,2023,4,COMEDK
+E055,G.S.S.S. Institute of Engineering & Technology for Women,GM,EC-Electronics & Communication Engineering,65694,2023,4,COMEDK
+E055,G.S.S.S. Institute of Engineering & Technology for Women,GM,IS-Information Science & Engineering,43507,2023,4,COMEDK
+E058,"Sri Jayachamarajendra College of Engineering (ConstituentCollege of JSS Science and Technology University)",GM,CS-Computer Science & Engineering,3064,2023,4,COMEDK
+E059,Jawaharlal Nehru New College Of Engineering (JNNCE),GM,AI-Artificial Intelligence & Machine Learning,70958,2023,4,COMEDK
+E059,Jawaharlal Nehru New College Of Engineering (JNNCE),GM,CD-Computer Science & Engineering (Data Science),75103,2023,4,COMEDK
+E059,Jawaharlal Nehru New College Of Engineering (JNNCE),GM,CS-Computer Science & Engineering,40752,2023,4,COMEDK
+E059,Jawaharlal Nehru New College Of Engineering (JNNCE),GM,EC-Electronics & Communication Engineering,70647,2023,4,COMEDK
+E059,Jawaharlal Nehru New College Of Engineering (JNNCE),GM,IS-Information Science & Engineering,69153,2023,4,COMEDK
+E059,Jawaharlal Nehru New College Of Engineering (JNNCE),GM,RI-Robotics & Artificial Intelligence,58564,2023,4,COMEDK
+E060,J.S.S. Academy of Technical Education,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",20494,2023,4,COMEDK
+E060,J.S.S. Academy of Technical Education,GM,CS-Computer Science & Engineering,17275,2023,4,COMEDK
+E060,J.S.S. Academy of Technical Education,GM,EC-Electronics & Communication Engineering,30245,2023,4,COMEDK
+E060,J.S.S. Academy of Technical Education,GM,EI-Electronics & Instrumentation Engineering,53326,2023,4,COMEDK
+E060,J.S.S. Academy of Technical Education,GM,IS-Information Science & Engineering,22244,2023,4,COMEDK
+E060,J.S.S. Academy of Technical Education,GM,RA-Robotics & Automation,38503,2023,4,COMEDK
+E061,JSS Science & Technology University,GM,BT-Biotechnology,69433,2023,4,COMEDK
+E061,JSS Science & Technology University,GM,CV-Civil Engineering,36204,2023,4,COMEDK
+E061,JSS Science & Technology University,GM,ME-Mechanical Engineering,75838,2023,4,COMEDK
+E062,Jain College of Engineering,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",75488,2023,4,COMEDK
+E062,Jain College of Engineering,GM,CS-Computer Science & Engineering,58133,2023,4,COMEDK
+E062,Jain College of Engineering,GM,EC-Electronics & Communication Engineering,71628,2023,4,COMEDK
+E064,Jain College of Engineering and Research,GM,EC-Electronics & Communication Engineering,45218,2023,4,COMEDK
+E065,"KLE Technological University Hubballi, Belagavi Campus.(Formerly called as KLE Dr. M.S.sheshgiri college ofEngineering and Technology, Belagavi.)",GM,CA-Computer Science & Engineering (Artificial Intelligence),36018,2023,4,COMEDK
+E065,"KLE Technological University Hubballi, Belagavi Campus.(Formerly called as KLE Dr. M.S.sheshgiri college ofEngineering and Technology, Belagavi.)",GM,CS-Computer Science & Engineering,32960,2023,4,COMEDK
+E065,"KLE Technological University Hubballi, Belagavi Campus.(Formerly called as KLE Dr. M.S.sheshgiri college ofEngineering and Technology, Belagavi.)",GM,EC-Electronics & Communication Engineering,48161,2023,4,COMEDK
+E065,"KLE Technological University Hubballi, Belagavi Campus.(Formerly called as KLE Dr. M.S.sheshgiri college ofEngineering and Technology, Belagavi.)",GM,EE-Electrical & Electronics Engineering,74484,2023,4,COMEDK
+E066,KLE College of Engineering and Technology,GM,AD-Artificial Intelligence & Data Science,67419,2023,4,COMEDK
+E066,KLE College of Engineering and Technology,GM,CS-Computer Science & Engineering,73628,2023,4,COMEDK
+E067,K.S. School of Engineering & Management,GM,AD-Artificial Intelligence & Data Science,35425,2023,4,COMEDK
+E067,K.S. School of Engineering & Management,GM,CS-Computer Science & Engineering,60366,2023,4,COMEDK
+E068,K S Institute Of Technology,GM,AI-Artificial Intelligence & Machine Learning,72992,2023,4,COMEDK
+E068,K S Institute Of Technology,GM,CG-Computer Science & Design,69781,2023,4,COMEDK
+E068,K S Institute Of Technology,GM,CS-Computer Science & Engineering,43912,2023,4,COMEDK
+E068,K S Institute Of Technology,GM,EC-Electronics & Communication Engineering,35184,2023,4,COMEDK
+E068,K S Institute Of Technology,GM,"IC-Computer Science & Engineering (IOT & Cyber SecurityIncluding Block Chain Technology)",58865,2023,4,COMEDK
+E072,K.L.E Society's K.L.E Institute of Technology,GM,CS-Computer Science & Engineering,51246,2023,4,COMEDK
+E072,K.L.E Society's K.L.E Institute of Technology,GM,EC-Electronics & Communication Engineering,74917,2023,4,COMEDK
+E073,KLS Gogte Institute of Technology,GM,AE-Aeronautical Engineering,59811,2023,4,COMEDK
+E073,KLS Gogte Institute of Technology,GM,CS-Computer Science & Engineering,22693,2023,4,COMEDK
+E073,KLS Gogte Institute of Technology,GM,EC-Electronics & Communication Engineering,40384,2023,4,COMEDK
+E073,KLS Gogte Institute of Technology,GM,EE-Electrical & Electronics Engineering,38435,2023,4,COMEDK
+E073,KLS Gogte Institute of Technology,GM,IS-Information Science & Engineering,30847,2023,4,COMEDK
+E073,KLS Gogte Institute of Technology,GM,ME-Mechanical Engineering,49685,2023,4,COMEDK
+E074,KLS Vishwanathrao Deshpande Institute of Technology,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",67132,2023,4,COMEDK
+E074,KLS Vishwanathrao Deshpande Institute of Technology,GM,CS-Computer Science & Engineering,76214,2023,4,COMEDK
+E076,M.S. Engineering College,GM,CS-Computer Science & Engineering,51503,2023,4,COMEDK
+E077,M S Ramaiah Institute of Technology,GM,AD-Artificial Intelligence & Data Science,2503,2023,4,COMEDK
+E077,M S Ramaiah Institute of Technology,GM,AI-Artificial Intelligence & Machine Learning,2535,2023,4,COMEDK
+E077,M S Ramaiah Institute of Technology,GM,BT-Biotechnology,27939,2023,4,COMEDK
+E077,M S Ramaiah Institute of Technology,GM,CH-Chemical Engineering,27454,2023,4,COMEDK
+E077,M S Ramaiah Institute of Technology,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",1830,2023,4,COMEDK
+E077,M S Ramaiah Institute of Technology,GM,CS-Computer Science & Engineering,1358,2023,4,COMEDK
+E077,M S Ramaiah Institute of Technology,GM,CV-Civil Engineering,29486,2023,4,COMEDK
+E077,M S Ramaiah Institute of Technology,GM,CY-Computer Science & Engineering (Cyber Security),2159,2023,4,COMEDK
+E077,M S Ramaiah Institute of Technology,GM,EC-Electronics & Communication Engineering,3530,2023,4,COMEDK
+E077,M S Ramaiah Institute of Technology,GM,EE-Electrical & Electronics Engineering,5864,2023,4,COMEDK
+E077,M S Ramaiah Institute of Technology,GM,EI-Electronics & Instrumentation Engineering,6810,2023,4,COMEDK
+E077,M S Ramaiah Institute of Technology,GM,ET-Electronics & Telecommunication Engineering,5341,2023,4,COMEDK
+E077,M S Ramaiah Institute of Technology,GM,IM-Industrial Engineering & Management,24423,2023,4,COMEDK
+E077,M S Ramaiah Institute of Technology,GM,IS-Information Science & Engineering,2242,2023,4,COMEDK
+E077,M S Ramaiah Institute of Technology,GM,MD-Medical Electronics Engineering,31207,2023,4,COMEDK
+E077,M S Ramaiah Institute of Technology,GM,ME-Mechanical Engineering,15619,2023,4,COMEDK
+E078,Maharaja Institute of Technology,GM,CA-Computer Science & Engineering (Artificial Intelligence),74539,2023,4,COMEDK
+E078,Maharaja Institute of Technology,GM,CB-Computer Science & Business Systems,70944,2023,4,COMEDK
+E078,Maharaja Institute of Technology,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",69835,2023,4,COMEDK
+E078,Maharaja Institute of Technology,GM,CS-Computer Science & Engineering,61792,2023,4,COMEDK
+E078,Maharaja Institute of Technology,GM,EC-Electronics & Communication Engineering,49256,2023,4,COMEDK
+E078,Maharaja Institute of Technology,GM,"IC-Computer Science & Engineering (IOT & Cyber SecurityIncluding Block Chain Technology)",61726,2023,4,COMEDK
+E078,Maharaja Institute of Technology,GM,IS-Information Science & Engineering,73835,2023,4,COMEDK
+E079,Malnad College of Engineering,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",57606,2023,4,COMEDK
+E079,Malnad College of Engineering,GM,CS-Computer Science & Engineering,66264,2023,4,COMEDK
+E079,Malnad College of Engineering,GM,IS-Information Science & Engineering,61136,2023,4,COMEDK
+E080,Mangalore Institute of Technology and Engineering,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",60718,2023,4,COMEDK
+E080,Mangalore Institute of Technology and Engineering,GM,CS-Computer Science & Engineering,74286,2023,4,COMEDK
+E080,Mangalore Institute of Technology and Engineering,GM,"IC-Computer Science & Engineering (IOT & Cyber SecurityIncluding Block Chain Technology)",66106,2023,4,COMEDK
+E082,Maharaja Institute of Technology,GM,AD-Artificial Intelligence & Data Science,45915,2023,4,COMEDK
+E082,Maharaja Institute of Technology,GM,CS-Computer Science & Engineering,58282,2023,4,COMEDK
+E082,Maharaja Institute of Technology,GM,EC-Electronics & Communication Engineering,58320,2023,4,COMEDK
+E084,Nagarjuna College of Engineering & Technology,GM,CS-Computer Science & Engineering,73725,2023,4,COMEDK
+E084,Nagarjuna College of Engineering & Technology,GM,IS-Information Science & Engineering,50744,2023,4,COMEDK
+E085,The National Institute of Engineering - North Campus,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",7743,2023,4,COMEDK
+E085,The National Institute of Engineering - North Campus,GM,CS-Computer Science & Engineering,6501,2023,4,COMEDK
+E085,The National Institute of Engineering - North Campus,GM,IS-Information Science & Engineering,8946,2023,4,COMEDK
+E086,Nitte Meenakshi Institute of Technology,GM,AD-Artificial Intelligence & Data Science,10617,2023,4,COMEDK
+E086,Nitte Meenakshi Institute of Technology,GM,AE-Aeronautical Engineering,72466,2023,4,COMEDK
+E086,Nitte Meenakshi Institute of Technology,GM,AI-Artificial Intelligence & Machine Learning,10128,2023,4,COMEDK
+E086,Nitte Meenakshi Institute of Technology,GM,CB-Computer Science & Business Systems,9949,2023,4,COMEDK
+E086,Nitte Meenakshi Institute of Technology,GM,CS-Computer Science & Engineering,7856,2023,4,COMEDK
+E086,Nitte Meenakshi Institute of Technology,GM,CV-Civil Engineering,40936,2023,4,COMEDK
+E086,Nitte Meenakshi Institute of Technology,GM,EC-Electronics & Communication Engineering,15919,2023,4,COMEDK
+E086,Nitte Meenakshi Institute of Technology,GM,EE-Electrical & Electronics Engineering,29947,2023,4,COMEDK
+E086,Nitte Meenakshi Institute of Technology,GM,IS-Information Science & Engineering,10711,2023,4,COMEDK
+E086,Nitte Meenakshi Institute of Technology,GM,ME-Mechanical Engineering,67970,2023,4,COMEDK
+E086,Nitte Meenakshi Institute of Technology,GM,VD-Electronics Engineering (VLSI Design & Technology),29930,2023,4,COMEDK
+E089,P. E. S. College of Engineering,GM,CB-Computer Science & Business Systems,31364,2023,4,COMEDK
+E089,P. E. S. College of Engineering,GM,CD-Computer Science & Engineering (Data Science),27808,2023,4,COMEDK
+E089,P. E. S. College of Engineering,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",25649,2023,4,COMEDK
+E089,P. E. S. College of Engineering,GM,CS-Computer Science & Engineering,22378,2023,4,COMEDK
+E089,P. E. S. College of Engineering,GM,CV-Civil Engineering,66067,2023,4,COMEDK
+E089,P. E. S. College of Engineering,GM,EC-Electronics & Communication Engineering,40514,2023,4,COMEDK
+E089,P. E. S. College of Engineering,GM,EE-Electrical & Electronics Engineering,50076,2023,4,COMEDK
+E089,P. E. S. College of Engineering,GM,IS-Information Science & Engineering,28950,2023,4,COMEDK
+E090,P E S Institute of Technology & Management,GM,AI-Artificial Intelligence & Machine Learning,45776,2023,4,COMEDK
+E090,P E S Institute of Technology & Management,GM,CD-Computer Science & Engineering (Data Science),54776,2023,4,COMEDK
+E090,P E S Institute of Technology & Management,GM,CE-Computer Engineering,63550,2023,4,COMEDK
+E090,P E S Institute of Technology & Management,GM,CG-Computer Science & Design,71816,2023,4,COMEDK
+E090,P E S Institute of Technology & Management,GM,CS-Computer Science & Engineering,38847,2023,4,COMEDK
+E090,P E S Institute of Technology & Management,GM,EC-Electronics & Communication Engineering,73820,2023,4,COMEDK
+E090,P E S Institute of Technology & Management,GM,IST-Information Science & Technology,68039,2023,4,COMEDK
+E095,R.V. College of Engineering,GM,AI-Artificial Intelligence & Machine Learning,818,2023,4,COMEDK
+E095,R.V. College of Engineering,GM,AS-Aerospace Engineering,5990,2023,4,COMEDK
+E095,R.V. College of Engineering,GM,BT-Biotechnology,16564,2023,4,COMEDK
+E095,R.V. College of Engineering,GM,CD-Computer Science & Engineering (Data Science),531,2023,4,COMEDK
+E095,R.V. College of Engineering,GM,CH-Chemical Engineering,14115,2023,4,COMEDK
+E095,R.V. College of Engineering,GM,CS-Computer Science & Engineering,406,2023,4,COMEDK
+E095,R.V. College of Engineering,GM,CV-Civil Engineering,17203,2023,4,COMEDK
+E095,R.V. College of Engineering,GM,CY-Computer Science & Engineering (Cyber Security),774,2023,4,COMEDK
+E095,R.V. College of Engineering,GM,EC-Electronics & Communication Engineering,1333,2023,4,COMEDK
+E095,R.V. College of Engineering,GM,EE-Electrical & Electronics Engineering,2786,2023,4,COMEDK
+E095,R.V. College of Engineering,GM,EI-Electronics & Instrumentation Engineering,3243,2023,4,COMEDK
+E095,R.V. College of Engineering,GM,ET-Electronics & Telecommunication Engineering,2835,2023,4,COMEDK
+E095,R.V. College of Engineering,GM,IM-Industrial Engineering & Management,15818,2023,4,COMEDK
+E095,R.V. College of Engineering,GM,IS-Information Science & Engineering,644,2023,4,COMEDK
+E095,R.V. College of Engineering,GM,ME-Mechanical Engineering,7489,2023,4,COMEDK
+E097,R.R.Institute of Technology,GM,CS-Computer Science & Engineering,37828,2023,4,COMEDK
+E099,RajaRajeswari College of Engineering,GM,CS-Computer Science & Engineering,75910,2023,4,COMEDK
+E099,RajaRajeswari College of Engineering,GM,EC-Electronics & Communication Engineering,48228,2023,4,COMEDK
+E099,RajaRajeswari College of Engineering,GM,IS-Information Science & Engineering,38627,2023,4,COMEDK
+E101,Rajiv Gandhi Institute of Technology,GM,CS-Computer Science & Engineering,46725,2023,4,COMEDK
+E104,RNS Institute of Technology,GM,AD-Artificial Intelligence & Data Science,17311,2023,4,COMEDK
+E104,RNS Institute of Technology,GM,CD-Computer Science & Engineering (Data Science),17262,2023,4,COMEDK
+E104,RNS Institute of Technology,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",16926,2023,4,COMEDK
+E104,RNS Institute of Technology,GM,CS-Computer Science & Engineering,11782,2023,4,COMEDK
+E104,RNS Institute of Technology,GM,CY-Computer Science & Engineering (Cyber Security),17242,2023,4,COMEDK
+E104,RNS Institute of Technology,GM,EC-Electronics & Communication Engineering,25904,2023,4,COMEDK
+E104,RNS Institute of Technology,GM,IS-Information Science & Engineering,16671,2023,4,COMEDK
+E105,Bheemanna Khandre Institute of Technology,GM,CS-Computer Science & Engineering,53962,2023,4,COMEDK
+E107,S J B Institute of Technology,GM,AI-Artificial Intelligence & Machine Learning,31530,2023,4,COMEDK
+E107,S J B Institute of Technology,GM,CD-Computer Science & Engineering (Data Science),30868,2023,4,COMEDK
+E107,S J B Institute of Technology,GM,CS-Computer Science & Engineering,25004,2023,4,COMEDK
+E107,S J B Institute of Technology,GM,EC-Electronics & Communication Engineering,42479,2023,4,COMEDK
+E107,S J B Institute of Technology,GM,EE-Electrical & Electronics Engineering,59348,2023,4,COMEDK
+E107,S J B Institute of Technology,GM,IS-Information Science & Engineering,31108,2023,4,COMEDK
+E108,SJC Institute of Technology,GM,AD-Artificial Intelligence & Data Science,27276,2023,4,COMEDK
+E108,SJC Institute of Technology,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",47560,2023,4,COMEDK
+E108,SJC Institute of Technology,GM,CS-Computer Science & Engineering,62085,2023,4,COMEDK
+E108,SJC Institute of Technology,GM,IS-Information Science & Engineering,55656,2023,4,COMEDK
+E109,S.E.A. College of Engineering & Technology,GM,CS-Computer Science & Engineering,33269,2023,4,COMEDK
+E110,SSET's S.G. Balekundri Institute of Technology,GM,AD-Artificial Intelligence & Data Science,55549,2023,4,COMEDK
+E110,SSET's S.G. Balekundri Institute of Technology,GM,CS-Computer Science & Engineering,50405,2023,4,COMEDK
+E112,Sahyadri College of Engineering & Management,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",61394,2023,4,COMEDK
+E112,Sahyadri College of Engineering & Management,GM,CS-Computer Science & Engineering,60016,2023,4,COMEDK
+E112,Sahyadri College of Engineering & Management,GM,EC-Electronics & Communication Engineering,60010,2023,4,COMEDK
+E113,Sai Vidya Institute of Technology,GM,CD-Computer Science & Engineering (Data Science),59278,2023,4,COMEDK
+E113,Sai Vidya Institute of Technology,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",62985,2023,4,COMEDK
+E113,Sai Vidya Institute of Technology,GM,CS-Computer Science & Engineering,58912,2023,4,COMEDK
+E113,Sai Vidya Institute of Technology,GM,IS-Information Science & Engineering,65541,2023,4,COMEDK
+E114,Sambhram Institute of Technology,GM,CS-Computer Science & Engineering,52173,2023,4,COMEDK
+E114,Sambhram Institute of Technology,GM,CY-Computer Science & Engineering (Cyber Security),63719,2023,4,COMEDK
+E116,Sapthagiri College of Engineering,GM,CS-Computer Science & Engineering,38911,2023,4,COMEDK
+E116,Sapthagiri College of Engineering,GM,EC-Electronics & Communication Engineering,44522,2023,4,COMEDK
+E116,Sapthagiri College of Engineering,GM,IS-Information Science & Engineering,68271,2023,4,COMEDK
+E117,SDM College of Engineering & Technology,GM,AI-Artificial Intelligence & Machine Learning,31258,2023,4,COMEDK
+E117,SDM College of Engineering & Technology,GM,CS-Computer Science & Engineering,22355,2023,4,COMEDK
+E117,SDM College of Engineering & Technology,GM,CV-Civil Engineering,54439,2023,4,COMEDK
+E117,SDM College of Engineering & Technology,GM,EC-Electronics & Communication Engineering,37486,2023,4,COMEDK
+E117,SDM College of Engineering & Technology,GM,EE-Electrical & Electronics Engineering,57324,2023,4,COMEDK
+E117,SDM College of Engineering & Technology,GM,IS-Information Science & Engineering,26802,2023,4,COMEDK
+E118,SDM Institute of Technology,GM,CS-Computer Science & Engineering,50129,2023,4,COMEDK
+E118,SDM Institute of Technology,GM,IS-Information Science & Engineering,22148,2023,4,COMEDK
+E121,Sri SaiRam College of Engineering,GM,CS-Computer Science & Engineering,51609,2023,4,COMEDK
+E125,Siddaganga Institute of Technology,GM,AD-Artificial Intelligence & Data Science,11451,2023,4,COMEDK
+E125,Siddaganga Institute of Technology,GM,BT-Biotechnology,53045,2023,4,COMEDK
+E125,Siddaganga Institute of Technology,GM,CH-Chemical Engineering,72662,2023,4,COMEDK
+E125,Siddaganga Institute of Technology,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",10352,2023,4,COMEDK
+E125,Siddaganga Institute of Technology,GM,CS-Computer Science & Engineering,8336,2023,4,COMEDK
+E125,Siddaganga Institute of Technology,GM,EC-Electronics & Communication Engineering,16429,2023,4,COMEDK
+E125,Siddaganga Institute of Technology,GM,EE-Electrical & Electronics Engineering,25093,2023,4,COMEDK
+E125,Siddaganga Institute of Technology,GM,"EIE-Electronics & Instrumentation Engineering (Inst.Technology)",28349,2023,4,COMEDK
+E125,Siddaganga Institute of Technology,GM,ET-Electronics & Telecommunication Engineering,20716,2023,4,COMEDK
+E125,Siddaganga Institute of Technology,GM,IM-Industrial Engineering & Management,54282,2023,4,COMEDK
+E125,Siddaganga Institute of Technology,GM,IS-Information Science & Engineering,10883,2023,4,COMEDK
+E125,Siddaganga Institute of Technology,GM,ME-Mechanical Engineering,64216,2023,4,COMEDK
+E126,Sir. M. Visvesvaraya Institute of Technology,GM,AI-Artificial Intelligence & Machine Learning,12237,2023,4,COMEDK
+E126,Sir. M. Visvesvaraya Institute of Technology,GM,BT-Biotechnology,37260,2023,4,COMEDK
+E126,Sir. M. Visvesvaraya Institute of Technology,GM,CS-Computer Science & Engineering,9927,2023,4,COMEDK
+E126,Sir. M. Visvesvaraya Institute of Technology,GM,CSI-Computer Science & Engineering (IOT),11723,2023,4,COMEDK
+E126,Sir. M. Visvesvaraya Institute of Technology,GM,CV-Civil Engineering,62444,2023,4,COMEDK
+E126,Sir. M. Visvesvaraya Institute of Technology,GM,EC-Electronics & Communication Engineering,19807,2023,4,COMEDK
+E126,Sir. M. Visvesvaraya Institute of Technology,GM,EE-Electrical & Electronics Engineering,40858,2023,4,COMEDK
+E126,Sir. M. Visvesvaraya Institute of Technology,GM,ET-Electronics & Telecommunication Engineering,29151,2023,4,COMEDK
+E126,Sir. M. Visvesvaraya Institute of Technology,GM,IS-Information Science & Engineering,12107,2023,4,COMEDK
+E126,Sir. M. Visvesvaraya Institute of Technology,GM,ME-Mechanical Engineering,63415,2023,4,COMEDK
+E132,Sri Krishna Institute of Technology,GM,AI-Artificial Intelligence & Machine Learning,54346,2023,4,COMEDK
+E132,Sri Krishna Institute of Technology,GM,CS-Computer Science & Engineering,42386,2023,4,COMEDK
+E137,Sri Venkateshwara College of Engineering,GM,CA-Computer Science & Engineering (Artificial Intelligence),64095,2023,4,COMEDK
+E137,Sri Venkateshwara College of Engineering,GM,CD-Computer Science & Engineering (Data Science),49072,2023,4,COMEDK
+E137,Sri Venkateshwara College of Engineering,GM,CS-Computer Science & Engineering,67791,2023,4,COMEDK
+E137,Sri Venkateshwara College of Engineering,GM,IS-Information Science & Engineering,59541,2023,4,COMEDK
+E141,T. John Institute of Technology,GM,CS-Computer Science & Engineering,69100,2023,4,COMEDK
+E142,The National Institute of Engineering - South Campus,GM,EC-Electronics & Communication Engineering,10772,2023,4,COMEDK
+E142,The National Institute of Engineering - South Campus,GM,EE-Electrical & Electronics Engineering,19327,2023,4,COMEDK
+E142,The National Institute of Engineering - South Campus,GM,ME-Mechanical Engineering,39676,2023,4,COMEDK
+E143,Tontadarya College of Engineering,GM,CS-Computer Science & Engineering,43871,2023,4,COMEDK
+E145,Vemana Institute of Technology,GM,AI-Artificial Intelligence & Machine Learning,70278,2023,4,COMEDK
+E145,Vemana Institute of Technology,GM,CD-Computer Science & Engineering (Data Science),55591,2023,4,COMEDK
+E145,Vemana Institute of Technology,GM,CS-Computer Science & Engineering,67533,2023,4,COMEDK
+E146,Vidya Vikas Institute of Engineering & Technology,GM,CS-Computer Science & Engineering,70831,2023,4,COMEDK
+E147,Vidyavardhaka College of Engineering,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",30936,2023,4,COMEDK
+E147,Vidyavardhaka College of Engineering,GM,CS-Computer Science & Engineering,24354,2023,4,COMEDK
+E147,Vidyavardhaka College of Engineering,GM,EC-Electronics & Communication Engineering,45354,2023,4,COMEDK
+E147,Vidyavardhaka College of Engineering,GM,EE-Electrical & Electronics Engineering,60096,2023,4,COMEDK
+E147,Vidyavardhaka College of Engineering,GM,IS-Information Science & Engineering,35629,2023,4,COMEDK
+E147,Vidyavardhaka College of Engineering,GM,ME-Mechanical Engineering,53015,2023,4,COMEDK
+E148,Vivekananda College of Engineering & Technology,GM,AI-Artificial Intelligence & Machine Learning,29799,2023,4,COMEDK
+E149,Vivekananda Institute of Technology,GM,CS-Computer Science & Engineering,29926,2023,4,COMEDK
+E152,ATME College of Engineering,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",74285,2023,4,COMEDK
+E152,ATME College of Engineering,GM,CS-Computer Science & Engineering,73391,2023,4,COMEDK
+E156,Jyothy Institute of Technology,GM,AI-Artificial Intelligence & Machine Learning,40128,2023,4,COMEDK
+E156,Jyothy Institute of Technology,GM,CS-Computer Science & Engineering,75118,2023,4,COMEDK
+E156,Jyothy Institute of Technology,GM,IS-Information Science & Engineering,52303,2023,4,COMEDK
+E161,Cambridge Institute of Technology - North Campus,GM,CS-Computer Science & Engineering,68913,2023,4,COMEDK
+E164,Reva University,GM,AM-Automation & Robotics Engineering,65407,2023,4,COMEDK
+E164,Reva University,GM,AS-Aerospace Engineering,67953,2023,4,COMEDK
+E164,Reva University,GM,CV-Civil Engineering,71925,2023,4,COMEDK
+E164,Reva University,GM,EE-Electrical & Electronics Engineering,65340,2023,4,COMEDK
+E164,Reva University,GM,ME-Mechanical Engineering,34093,2023,4,COMEDK
+E165,"Alliance College of Engineering & Design, AllianceUniversity",GM,AS-Aerospace Engineering,70405,2023,4,COMEDK
+E165,"Alliance College of Engineering & Design, AllianceUniversity",GM,EC-Electronics & Communication Engineering,49609,2023,4,COMEDK
+E171,GITAM University,GM,CA-Computer Science & Engineering (Artificial Intelligence),16432,2023,4,COMEDK
+E171,GITAM University,GM,CB-Computer Science & Business Systems,27631,2023,4,COMEDK
+E171,GITAM University,GM,CD-Computer Science & Engineering (Data Science),18605,2023,4,COMEDK
+E171,GITAM University,GM,CS-Computer Science & Engineering,11003,2023,4,COMEDK
+E171,GITAM University,GM,CSI-Computer Science & Engineering (IOT),28605,2023,4,COMEDK
+E171,GITAM University,GM,CY-Computer Science & Engineering (Cyber Security),31079,2023,4,COMEDK
+E171,GITAM University,GM,EC-Electronics & Communication Engineering,57241,2023,4,COMEDK
+E173,Presidency University,GM,CBD-Computer Science & Technology (Big Data),52466,2023,4,COMEDK
+E173,Presidency University,GM,CD-Computer Science & Engineering (Data Science),38838,2023,4,COMEDK
+E173,Presidency University,GM,CE-Computer Engineering,63916,2023,4,COMEDK
+E173,Presidency University,GM,"CI-Computer Science & Engineering (Artificial Intelligence &Machine Learning)",31532,2023,4,COMEDK
+E173,Presidency University,GM,CIT-Computer Science & Information Technology,65185,2023,4,COMEDK
+E173,Presidency University,GM,CNW-Computer Science & Engineering (Networks),59835,2023,4,COMEDK
+E173,Presidency University,GM,CSB-Computer Science & Engineering (Block Chain),74017,2023,4,COMEDK
+E173,Presidency University,GM,CS-Computer Science & Engineering,34374,2023,4,COMEDK
+E173,Presidency University,GM,CSD-Computer Science & Technology (Devops),58032,2023,4,COMEDK
+E173,Presidency University,GM,CSI-Computer Science & Engineering (IOT),52101,2023,4,COMEDK
+E173,Presidency University,GM,CST-Computer Science & Technology,65238,2023,4,COMEDK
+E173,Presidency University,GM,CY-Computer Science & Engineering (Cyber Security),51774,2023,4,COMEDK
+E173,Presidency University,GM,EC-Electronics & Communication Engineering,46715,2023,4,COMEDK
+E173,Presidency University,GM,IS-Information Science & Engineering,61314,2023,4,COMEDK
+E173,Presidency University,GM,IST-Information Science & Technology,67312,2023,4,COMEDK
+E182,Dayananda Sagar University,GM,AS-Aerospace Engineering,54695,2023,4,COMEDK
+E182,Dayananda Sagar University,GM,EC-Electronics & Communication Engineering,38529,2023,4,COMEDK
+E182,Dayananda Sagar University,GM,RI-Robotics & Artificial Intelligence,29314,2023,4,COMEDK
+E183,Jain Institute of Technology,GM,CS-Computer Science & Engineering,74583,2023,4,COMEDK
+E183,Jain Institute of Technology,GM,IS-Information Science & Engineering,50625,2023,4,COMEDK
+E187,CMR University,GM,EC-Electronics & Communication Engineering,56642,2023,4,COMEDK
+E187,CMR University,GM,INT-Information Technology,40275,2023,4,COMEDK
+E194,Jain College of Engineering and Technology,GM,AI-Artificial Intelligence & Machine Learning,73842,2023,4,COMEDK
+E194,Jain College of Engineering and Technology,GM,CS-Computer Science & Engineering,75630,2023,4,COMEDK
+E194,Jain College of Engineering and Technology,GM,EC-Electronics & Communication Engineering,68829,2023,4,COMEDK
+E197,Ramaiah University of Applied Sciences,GM,AVE-Automotive Engineering,72709,2023,4,COMEDK
+E197,Ramaiah University of Applied Sciences,GM,EE-Electrical & Electronics Engineering,36137,2023,4,COMEDK
+E197,Ramaiah University of Applied Sciences,GM,ME-Mechanical Engineering,53673,2023,4,COMEDK
+E198,RV Institute of Technology and Management,GM,CS-Computer Science & Engineering,7267,2023,4,COMEDK
+E198,RV Institute of Technology and Management,GM,EC-Electronics & Communication Engineering,9934,2023,4,COMEDK
+E198,RV Institute of Technology and Management,GM,IS-Information Science & Engineering,8545,2023,4,COMEDK
+E203,Amruta Institute of Engineering & Management Sciences,GM,CS-Computer Science & Engineering,73828,2023,4,COMEDK
+E207,BGS College of Engineering and Technology,GM,AD-Artificial Intelligence & Data Science,61160,2023,4,COMEDK
+E207,BGS College of Engineering and Technology,GM,AI-Artificial Intelligence & Machine Learning,63325,2023,4,COMEDK
+E207,BGS College of Engineering and Technology,GM,CG-Computer Science & Design,66932,2023,4,COMEDK
+E207,BGS College of Engineering and Technology,GM,CS-Computer Science & Engineering,51426,2023,4,COMEDK
+E207,BGS College of Engineering and Technology,GM,IS-Information Science & Engineering,57190,2023,4,COMEDK
+E211,East West College of Engineering,GM,CS-Computer Science & Engineering,48607,2023,4,COMEDK
