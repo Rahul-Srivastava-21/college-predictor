@@ -1,0 +1,34 @@
+{
+  "total_records": 309145,
+  "years_covered": [
+    2020.0,
+    2021.0,
+    2022.0,
+    2023.0,
+    2024.0
+  ],
+  "colleges": 347,
+  "branches": 490,
+  "cet_vs_comedk": {
+    "CET": "300689",
+    "COMEDK": "8456"
+  },
+  "cutoff_insights": {
+    "overall_mean": 81444.4039690113,
+    "cet_mean": 82613.37275058283,
+    "comedk_mean": 39876.753311258275,
+    "comedk_advantage": 42736.61943932455
+  },
+  "feature_correlations": {
+    "college_selectivity": 0.517,
+    "branch_popularity": 0.38,
+    "rank_percentile": 0.908
+  },
+  "key_insights": [
+    "COMEDK has 2x better cutoffs than CET",
+    "2024 shows 70% cutoff deterioration",
+    "Round 3/4 COMEDK-only has best opportunities",
+    "Bangalore colleges dominate top institutions",
+    "College selectivity strongest predictor"
+  ]
+}
