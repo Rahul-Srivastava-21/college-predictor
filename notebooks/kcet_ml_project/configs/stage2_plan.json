@@ -1,0 +1,22 @@
+{
+  "preprocessing_steps": [
+    "2.1 - Basic cleaning & canonicalization",
+    "2.2 - Handle missing values",
+    "2.3 - Target transformations",
+    "2.4 - Lag & historical aggregation features",
+    "2.5 - Cross-group aggregate features",
+    "2.6 - High-cardinality encoding",
+    "2.7 - Categorical & interaction features",
+    "2.8 - Temporal & metadata features",
+    "2.9 - Handle low-history colleges",
+    "2.10 - Feature selection & redundancy reduction",
+    "2.11 - Model-ready pipelines",
+    "2.12 - Sanity tests & validation",
+    "2.13 - Advanced modeling"
+  ],
+  "expected_improvements": {
+    "target_mae": 12000,
+    "target_r2": 0.85,
+    "new_features_count": 50
+  }
+}

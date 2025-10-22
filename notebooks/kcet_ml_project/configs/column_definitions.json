@@ -1,0 +1,27 @@
+{
+  "numeric_columns": [
+    "Years_Since_2020",
+    "Round",
+    "College_Tier_Numeric",
+    "Category_Score",
+    "Branch_Popularity",
+    "Historical_Mean_Primary",
+    "YoY_Growth_Rate",
+    "Crisis_Progression",
+    "Is_Crisis_Year"
+  ],
+  "categorical_columns": [
+    "College_Code",
+    "Branch",
+    "Category",
+    "Exam_Type",
+    "College_Tier"
+  ],
+  "target_column": "Cutoff_Rank",
+  "key_grouping_columns": [
+    "College_Code",
+    "Branch",
+    "Category"
+  ],
+  "temporal_column": "Year"
+}

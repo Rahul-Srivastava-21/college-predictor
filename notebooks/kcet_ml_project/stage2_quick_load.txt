@@ -1,0 +1,25 @@
+# QUICK LOAD CELL: Copy & paste this into your new Stage 2 notebook
+# Cell 1: Load all Stage 1 results
+
+import pandas as pd
+import numpy as np
+import json
+from datetime import datetime
+
+# Load main datasets
+df_raw = pd.read_csv('kcet_ml_project/data/df_raw.csv')
+df_optimized = pd.read_csv('kcet_ml_project/data/df_optimized.csv')
+
+# Load column definitions
+with open('kcet_ml_project/configs/column_definitions.json', 'r') as f:
+    cols = json.load(f)
+
+NUMERIC_COLUMNS = cols['numeric_columns']
+CATEGORICAL_COLUMNS = cols['categorical_columns']  
+TARGET_COLUMN = cols['target_column']
+GROUP_COLUMNS = cols['key_grouping_columns']
+
+print(f"STAGE 2 DATA LOADED SUCCESSFULLY!")
+print(f"   df_raw: {df_raw.shape}")
+print(f"   df_optimized: {df_optimized.shape}")
+print(f"   Ready for production preprocessing!")
