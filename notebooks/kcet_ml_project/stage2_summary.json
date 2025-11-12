@@ -1,0 +1,172 @@
+{
+  "project": "KCET + COMEDK College Branch Cutoff Prediction",
+  "stage": "Stage 2: Data Preprocessing & Feature Engineering",
+  "completion_date": "2025-11-07 20:33:46",
+  "data_pipeline": {
+    "input": "df_optimized.csv (270,062 records from Stage 1)",
+    "output_datasets": [
+      "train_stage2_final.csv (137,755 records, 2020-2022)",
+      "val_stage2_final.csv (60,681 records, 2023)",
+      "test_stage2_final.csv (71,626 records, 2024)"
+    ],
+    "total_records": 270062,
+    "final_features": 32
+  },
+  "temporal_split": {
+    "strategy": "Chronological split before feature engineering",
+    "train": {
+      "years": [
+        2020,
+        2021,
+        2022
+      ],
+      "records": 137755,
+      "percentage": 51.0
+    },
+    "val": {
+      "years": [
+        2023
+      ],
+      "records": 60681,
+      "percentage": 22.5
+    },
+    "test": {
+      "years": [
+        2024
+      ],
+      "records": 71626,
+      "percentage": 26.5
+    }
+  },
+  "feature_engineering": {
+    "inter_year_features": {
+      "description": "Historical features using only data from years < current year",
+      "count": 9,
+      "features": [
+        "cutoff_lag1Y_L1Y: Previous year's average cutoff",
+        "cutoff_lag2Y_L2Y: 2 years back average cutoff",
+        "cutoff_roll3Y_mean_L1Y: Mean of up to 3 previous years",
+        "cutoff_roll3Y_std_L1Y: Std dev of up to 3 previous years",
+        "trend3Y_slope_L1Y: Linear trend over past 3 years",
+        "n_years_hist_L1Y: Count of years with historical data",
+        "is_low_history_L1Y: Flag for insufficient history",
+        "branch_prevY_mean_L1Y: Previous year branch average",
+        "college_prevY_allbranches_mean_L1Y: Previous year college average"
+      ],
+      "leakage_prevention": "No future data used; gaps are expected in early years"
+    },
+    "intra_year_features": {
+      "description": "Round-level features within same year (same year, previous rounds only)",
+      "count": 5,
+      "features": [
+        "cutoff_lag1R_L1R: Previous round's cutoff",
+        "cutoff_roll2R_mean_L1R: Mean of up to 2 previous rounds",
+        "cutoff_roll2R_std_L1R: Std dev of previous rounds",
+        "n_rounds_hist_L1R: Count of previous rounds",
+        "is_first_round_L1R: Flag for first round"
+      ],
+      "leakage_prevention": "Only past rounds within same year; first round has no history"
+    },
+    "target_encodings": {
+      "description": "High-cardinality categorical encoding using OOF on train only",
+      "count": 2,
+      "features": [
+        "College_Code_target_enc: College identifier encoding",
+        "College_Branch_target_enc: College+Branch combination encoding"
+      ],
+      "leakage_prevention": "OOF fit on train, transform() applied to val/test"
+    },
+    "label_encodings": {
+      "description": "Low-cardinality categorical encoding",
+      "count": 3,
+      "features": [
+        "Exam_Type: CET vs COMEDK",
+        "Volatility_Category: High/Medium/Low",
+        "Program_Maturity: Established/Developing/New"
+      ],
+      "leakage_prevention": "Fit on train, transform() applied to val/test"
+    },
+    "derived_features": {
+      "description": "Historical aggregations and engineered features",
+      "count": 13,
+      "features": [
+        "Years_Since_2020, Is_Recent, Year_Squared",
+        "College_Tier_Numeric, Category_Score",
+        "Historical_Mean_Primary, Historical_Mean_Percentile, Historical_Std_Raw",
+        "Historical_Count_Raw",
+        "Is_Established, Branch_Popularity",
+        "Year, Round"
+      ]
+    }
+  },
+  "leakage_prevention": {
+    "methodology": "Professional ML standards for time-series data",
+    "temporal_ordering": {
+      "status": "\u2705 Verified",
+      "details": "Train < Val < Test with no overlap"
+    },
+    "feature_engineering_order": {
+      "status": "\u2705 Correct",
+      "details": "Temporal split BEFORE feature engineering (prevents leakage)"
+    },
+    "inter_year_rules": {
+      "status": "\u2705 Enforced",
+      "details": "Inter-year features use only data from years < current year"
+    },
+    "intra_year_rules": {
+      "status": "\u2705 Enforced",
+      "details": "Intra-year features use only same year + rounds < current round"
+    },
+    "encoder_fitting": {
+      "status": "\u2705 Correct",
+      "details": "Target & label encoders fit on train, transform() on val/test"
+    },
+    "imputation": {
+      "status": "\u2705 Correct",
+      "details": "Medians computed on train, applied to val/test"
+    }
+  },
+  "data_quality": {
+    "missing_values": {
+      "train": 0,
+      "val": 0,
+      "test": 0,
+      "status": "\u2705 All imputed"
+    },
+    "data_types": {
+      "all_numeric": true,
+      "status": "\u2705 LightGBM ready"
+    },
+    "duplicates": "None (time-series data allows repeating values)"
+  },
+  "final_output_files": [
+    "train_stage2_final.csv (137,755 \u00d7 33)",
+    "val_stage2_final.csv (60,681 \u00d7 33)",
+    "test_stage2_final.csv (71,626 \u00d7 33)",
+    "X_train_stage2.csv, y_train_stage2.csv",
+    "X_val_stage2.csv, y_val_stage2.csv",
+    "X_test_stage2.csv, y_test_stage2.csv",
+    "stage2_feature_config.json"
+  ],
+  "next_steps": [
+    "Stage 3: Model Training with LightGBM",
+    "Cell 1: Load clean datasets",
+    "Cell 2: Create baseline models",
+    "Cell 3: Train LightGBM",
+    "Cell 4: Leakage detection tests",
+    "Cell 5: Hyperparameter tuning",
+    "Cell 6: Final model evaluation"
+  ],
+  "validation_checks_passed": [
+    "\u2705 Temporal split done BEFORE feature engineering",
+    "\u2705 No year overlap between train/val/test",
+    "\u2705 Inter-year features use only past data",
+    "\u2705 Intra-year features use only past rounds",
+    "\u2705 Target encoding fit on train only",
+    "\u2705 Label encoding fit on train only",
+    "\u2705 Imputation fit on train only",
+    "\u2705 All features numeric (LightGBM compatible)",
+    "\u2705 Zero missing values",
+    "\u2705 Proper temporal ordering maintained"
+  ]
+}

@@ -1,3 +1,9 @@
 kcet-env/
 .venv/
 ml-gpu/
+
+# Ignore CSV data files produced by notebooks/kcet_ml_project
+# - top-level CSVs in the data folder
+notebooks/kcet_ml_project/data/*.csv
+# - CSVs in any nested subfolders (e.g., stage2_v2_corrected/)
+notebooks/kcet_ml_project/data/**/*.csv
