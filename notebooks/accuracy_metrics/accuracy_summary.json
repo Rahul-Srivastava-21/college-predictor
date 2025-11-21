@@ -1,0 +1,16 @@
+{
+  "best_model": "LightGBM_Optuna",
+  "test_mae": 26942.652418485883,
+  "test_rmse": 37776.44848645323,
+  "test_r2": 0.6895119526595859,
+  "test_mape": 27.19055274625117,
+  "within_20pct": 44.293971462876605,
+  "all_models_ranking": [
+    {
+      "model": "LightGBM_Optuna",
+      "mae": 26942.652418485883,
+      "rmse": 37776.44848645323,
+      "r2_score": 0.6895119526595859
+    }
+  ]
+}
