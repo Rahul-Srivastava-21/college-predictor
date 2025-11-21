@@ -1,0 +1,1 @@
+{"train_mae":69310.1095135789,"val_mae":81594.3028261778,"test_mae":109594.6914206381,"train_rmse":82738.7097199459,"val_rmse":96575.3349498247,"test_rmse":128868.4982836709,"train_r2":-2.3526638653,"val_r2":-2.4941765368,"test_r2":-2.6132346796,"train_accuracy_percent":0.0156234594,"val_accuracy_percent":0.0134958755,"test_accuracy_percent":0.0102015033}
