@@ -1,0 +1,137 @@
+{
+  "impute_map": {
+    "Year": [
+      "const",
+      2021.0
+    ],
+    "Round": [
+      "const",
+      1.0
+    ],
+    "Exam_Type": [
+      "const",
+      0.0
+    ],
+    "Years_Since_2020": [
+      "const",
+      1.0
+    ],
+    "Is_Recent": [
+      "const",
+      0.0
+    ],
+    "Year_Squared": [
+      "const",
+      1.0
+    ],
+    "Historical_Mean_Primary": [
+      "const",
+      76977.3
+    ],
+    "Historical_Mean_Percentile": [
+      "const",
+      0.678391959798995
+    ],
+    "College_Tier_Numeric": [
+      "const",
+      2.0
+    ],
+    "Category_Score": [
+      "const",
+      73437.02529851388
+    ],
+    "Historical_Std_Raw": [
+      "const",
+      36549.24
+    ],
+    "Volatility_Category": [
+      "const",
+      1.0
+    ],
+    "Historical_Count_Raw": [
+      "const",
+      5.0
+    ],
+    "Program_Maturity": [
+      "const",
+      1.0
+    ],
+    "Is_Established": [
+      "const",
+      1.0
+    ],
+    "Branch_Popularity": [
+      "const",
+      27884.0
+    ],
+    "cutoff_lag1Y_L1Y": [
+      "const",
+      60261.0
+    ],
+    "cutoff_lag2Y_L2Y": [
+      "const",
+      58483.333333333336
+    ],
+    "cutoff_roll3Y_mean_L1Y": [
+      "const",
+      0.0
+    ],
+    "cutoff_roll3Y_std_L1Y": [
+      "const",
+      0.0
+    ],
+    "n_years_hist_L1Y": [
+      "const",
+      0.0
+    ],
+    "trend3Y_slope_L1Y": [
+      "const",
+      0.0
+    ],
+    "is_low_history_L1Y": [
+      "const",
+      0.0
+    ],
+    "branch_prevY_mean_L1Y": [
+      "const",
+      60586.77049689441
+    ],
+    "college_prevY_allbranches_mean_L1Y": [
+      "const",
+      72494.2270531401
+    ],
+    "cutoff_lag1R_L1R": [
+      "const",
+      54404.5
+    ],
+    "cutoff_roll2R_mean_L1R": [
+      "const",
+      53851.25
+    ],
+    "cutoff_roll2R_std_L1R": [
+      "const",
+      0.0
+    ],
+    "n_rounds_hist_L1R": [
+      "const",
+      1.0
+    ],
+    "is_first_round_L1R": [
+      "const",
+      0.0
+    ],
+    "College_Code_target_enc": [
+      "const",
+      70624.11159327789
+    ],
+    "College_Branch_target_enc": [
+      "const",
+      69320.93984247396
+    ]
+  },
+  "group_cols": [
+    "College_Branch_target_enc",
+    "Category_Score",
+    "Exam_Type"
+  ]
+}
