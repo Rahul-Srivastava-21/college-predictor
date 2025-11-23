@@ -74,6 +74,58 @@ const CollegeFinder = () => {
     }
   };
 
+  const loadCollegesData = async () => {
+    try {
+      const cacheKey = `colleges_${formData.Exam_Type}`;
+
+      // Clear cache for colleges data
+      localStorage.removeItem(cacheKey);
+      console.log(`Cache cleared for key: ${cacheKey}`);
+
+      const cachedData = JSON.parse(localStorage.getItem(cacheKey));
+
+      if (cachedData) {
+        // Check if cache is less than 24 hours old
+        if (Date.now() - cachedData.timestamp < 24 * 60 * 60 * 1000) {
+          console.log(`✓ Loaded ${cachedData.colleges.length} colleges from cache`);
+          setCollegesData({
+            ...cachedData,
+            colleges: cachedData.colleges.filter(college => college.College_Name !== 'MISSING_COLLEGE')
+          });
+          return;
+        } else {
+          console.log('Cache expired, fetching fresh data...');
+        }
+      } else {
+        console.log('No cache found, fetching from API...');
+      }
+
+      // Fetch from API
+      console.log(`→ Making API call to /colleges/list?exam_type=${formData.Exam_Type}`);
+      const data = await getCollegesList(formData.Exam_Type);
+      console.log('← API response received:', data);
+
+      if (data.success) {
+        console.log(`✓ API returned ${data.colleges.length} colleges`);
+        setCollegesData({
+          ...data,
+          colleges: data.colleges.filter(college => college.College_Name !== 'MISSING_COLLEGE')
+        });
+        // Cache the data
+        localStorage.setItem(cacheKey, JSON.stringify({
+          ...data,
+          colleges: data.colleges.filter(college => college.College_Name !== 'MISSING_COLLEGE'),
+          timestamp: Date.now()
+        }));
+      } else {
+        console.error('API returned success=false:', data);
+      }
+    } catch (err) {
+      console.error('❌ Failed to load colleges data:', err);
+      console.error('Error details:', err.message, err.response);
+    }
+  };
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({
@@ -115,7 +167,15 @@ const CollegeFinder = () => {
     try {
       const data = await findColleges(formData);
       if (data.success) {
-        setResults(data);
+        // Filter out colleges with 'MISSING_COLLEGE' in either college_name or College_Name
+        setResults({
+          ...data,
+          colleges: data.colleges.filter(
+            college =>
+              college.college_name !== 'MISSING_COLLEGE' &&
+              college.College_Name !== 'MISSING_COLLEGE'
+          )
+        });
       } else {
         setError(data.error || 'Failed to find colleges');
       }

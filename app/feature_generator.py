@@ -35,7 +35,7 @@ logger = logging.getLogger("feature_generator")
 # Constants & paths
 # --------------------------------------------
 BASE_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = Path("D:\\Major Project\\college-predictor")
+PROJECT_ROOT = (Path(__file__).resolve().parent.parent)
 DATA_DIR = PROJECT_ROOT / "notebooks" / "kcet_ml_project" / "data"
 MAPPINGS_DIR = DATA_DIR / "mappings_regenerated"
 

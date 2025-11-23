@@ -27,11 +27,11 @@ logger = logging.getLogger("kcet_api")
 # Paths
 # --------------------------------------------
 BASE_DIR = Path(__file__).resolve().parent
-MODELS_DIR = BASE_DIR / "notebooks" / "models" / "ensemble"
+PROJECT_ROOT = BASE_DIR.parent
 
-META_PATH = Path("D:\\Major Project\\college-predictor\\notebooks\\models\\ensemble\\weighted_ensemble_meta.joblib")
-LGB_PATH = Path("D:\\Major Project\\college-predictor\\notebooks\\models\\lightGBM_model.joblib")
-XGB_PATH = Path("D:\\Major Project\\college-predictor\\notebooks\\kcet_ml_project\\models\\xgboost_stage3\\xgb_booster_stage3_final_bestiter713.json")
+META_PATH = PROJECT_ROOT / "notebooks" / "models" / "ensemble" / "weighted_ensemble_meta.joblib"
+LGB_PATH = PROJECT_ROOT / "notebooks" / "models" / "lightGBM_model.joblib"
+XGB_PATH = PROJECT_ROOT / "notebooks" / "kcet_ml_project" / "models" / "xgboost_stage3" / "xgb_booster_stage3_final_bestiter713.json"
 
 # --------------------------------------------
 # Load models
@@ -498,41 +498,38 @@ def list_colleges(exam_type: str = "CET", college_code: str = None):
             (df_history['Exam_Type'] == exam_type) & 
             (df_history['Year'] == 2024)
         ]
-        
-        logger.info(f"Fetching colleges list for {exam_type} year 2024: {len(filtered_data)} records")
-        
+
         # Filter out colleges with missing names and remove duplicates
-        colleges_df = filtered_data[['College_Code', 'College_Name']].dropna(subset=['College_Name', 'College_Code'])
+        colleges_df = filtered_data[['College_Code', 'College_Name']]
+        colleges_df = colleges_df.dropna(subset=['College_Name', 'College_Code'])
+        colleges_df = colleges_df[colleges_df['College_Name'] != 'MISSING_COLLEGE']
         colleges = colleges_df.drop_duplicates().to_dict('records')
-        
+
         # If college_code is provided, filter branches for that specific college
         if college_code:
             branch_data = filtered_data[filtered_data['College_Code'] == college_code]
             logger.info(f"Filtering branches for college {college_code}: {len(branch_data)} records")
         else:
             branch_data = filtered_data
-        
+
         # Filter out NaN/null values, clean strings, and convert before sorting
         branches_raw = branch_data['Branch'].dropna().astype(str).unique()
-        # Clean any special characters like \r, \n, extra spaces
         branches = [branch.replace('\r', ' ').replace('\n', ' ').strip() for branch in branches_raw]
         branches = [b for b in branches if b]  # Remove empty strings
-        
+
         categories = filtered_data['Category'].dropna().astype(str).unique().tolist()
-        
+
         logger.info(f"Returning: {len(colleges)} colleges, {len(branches)} branches, {len(categories)} categories")
-        
+
         return {
             "success": True,
-            "exam_type": exam_type,
-            "year": 2024,
-            "college_code": college_code,
             "colleges": colleges,
-            "branches": sorted(branches),
-            "categories": sorted(categories)
+            "branches": branches,
+            "categories": categories
         }
+
     except Exception as e:
-        logger.exception("List colleges failed")
+        logger.exception("Failed to list colleges")
         return {"success": False, "error": str(e)}
 
 # --------------------------------------------
