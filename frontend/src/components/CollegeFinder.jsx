@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Select from 'react-select';
 import { findColleges, getCollegesList } from '../services/api';
-import { FaSearch, FaUniversity, FaCheckCircle, FaExclamationCircle } from 'react-icons/fa';
+import { FaSearch, FaUniversity, FaCheckCircle, FaExclamationCircle, FaExclamationTriangle } from 'react-icons/fa';
 import './CollegeFinder.css';
 
 const CollegeFinder = () => {
@@ -333,11 +333,30 @@ const CollegeFinder = () => {
           ) : (
             <div className="colleges-list">
               {results.colleges.map((college, index) => (
-                <div key={index} className="college-card">
+                <div key={index} className={`college-card${college.is_unstable ? ' unstable' : ''}`}>
                   <div className="college-header">
                     <FaUniversity className="college-icon" />
                     <div className="college-info">
-                      <h4>{college.college_name}</h4>
+                      <h4>{college.college_name}
+                        {college.is_unstable && (
+                          <span
+                            className="unstable-badge"
+                            title="Prediction for this branch is unstable due to high historical variability. Interpret with caution."
+                            style={{
+                              color: '#f59e0b',
+                              marginLeft: '8px',
+                              fontSize: '1.1em',
+                              verticalAlign: 'middle',
+                              cursor: 'pointer',
+                              display: 'inline-flex',
+                              alignItems: 'center'
+                            }}
+                          >
+                            <FaExclamationTriangle style={{ marginRight: 3 }} />
+                            <span style={{ fontWeight: 600 }}>Unstable</span>
+                          </span>
+                        )}
+                      </h4>
                       <p className="college-code">{college.college_code}</p>
                     </div>
                     <div 
@@ -372,6 +391,14 @@ const CollegeFinder = () => {
                       <span className="label">Historical Volatility:</span>
                       <span className="value">±{college.volatility} ranks</span>
                     </div>
+                    {college.is_unstable && (
+                      <div className="detail-row">
+                        <span className="label" style={{ color: '#f59e0b' }}>⚠ Unstable Prediction:</span>
+                        <span className="value" style={{ color: '#f59e0b' }}>
+                          This branch has high historical variability. Use prediction with caution.
+                        </span>
+                      </div>
+                    )}
                   </div>
                 </div>
               ))}

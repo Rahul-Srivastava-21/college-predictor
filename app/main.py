@@ -25,6 +25,7 @@ logger = logging.getLogger("kcet_api")
 
 # --------------------------------------------
 # Paths
+import json
 # --------------------------------------------
 BASE_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = BASE_DIR.parent
@@ -37,6 +38,17 @@ XGB_PATH = PROJECT_ROOT / "notebooks" / "kcet_ml_project" / "models" / "xgboost_
 # Load models
 # --------------------------------------------
 logger.info("Loading ensemble models...")
+
+# Load unstable branches (by College_Branch_target_enc)
+UNSTABLE_BRANCHES_PATH = (PROJECT_ROOT / "notebooks" / "kcet_ml_project" / "models" / "xgboost_stage3" / "package_v1_20251119T100521" / "unstable_branches_stage3.json")
+try:
+    with open(UNSTABLE_BRANCHES_PATH, "r") as f:
+        _unstable_json = json.load(f)
+        UNSTABLE_BRANCHES_SET = set(float(x) for x in _unstable_json["unstable_branches"])
+    logger.info(f"Loaded {len(UNSTABLE_BRANCHES_SET)} unstable branches for Stage-3 model.")
+except Exception as e:
+    logger.warning(f"Could not load unstable branches list: {e}")
+    UNSTABLE_BRANCHES_SET = set()
 
 meta = joblib.load(META_PATH)
 lgb_model = joblib.load(LGB_PATH)
@@ -417,7 +429,7 @@ def find_colleges(input_data: CollegeFinderInput):
                 # Skip if location filter doesn't match
                 if location_filter and location_filter.lower() not in row['College_Name'].lower():
                     continue
-                
+
                 # Build feature vector for this combo
                 test_input = {
                     'College_Code': row['College_Code'],
@@ -429,17 +441,21 @@ def find_colleges(input_data: CollegeFinderInput):
                     'Round': round_num,
                     'Quota_Seats': 60
                 }
-                
+
                 df = build_feature_vector(test_input)
                 predicted_cutoff = predict_weighted(df)
-                
+
                 # Extract features for chance calculation
                 features_dict = df.iloc[0].to_dict()
                 volatility = features_dict.get('Historical_Std_Raw', 5000)
-                
+
+                # Unstable branch detection using College_Branch_target_enc
+                cb_enc = float(features_dict.get('College_Branch_target_enc', -1))
+                is_unstable = cb_enc in UNSTABLE_BRANCHES_SET
+
                 # Calculate buffer zone
                 buffer = max(500, volatility * 0.3)
-                
+
                 # Determine safety level
                 if user_rank <= predicted_cutoff - buffer:
                     safety = "Safe"
@@ -452,7 +468,7 @@ def find_colleges(input_data: CollegeFinderInput):
                     chance_pct = 30
                 else:
                     continue  # Skip if too far
-                
+
                 results.append({
                     "college_code": row['College_Code'],
                     "college_name": row['College_Name'],
@@ -461,9 +477,10 @@ def find_colleges(input_data: CollegeFinderInput):
                     "safety_level": safety,
                     "admission_chance": chance_pct,
                     "rank_difference": int(predicted_cutoff - user_rank),
-                    "volatility": int(volatility)
+                    "volatility": int(volatility),
+                    "is_unstable": is_unstable
                 })
-                
+
             except Exception as e:
                 logger.warning(f"Failed to predict for {row['College_Code']}-{row['Branch']}: {e}")
                 continue
