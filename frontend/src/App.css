@@ -6,12 +6,14 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #97aaff 0%, #d6b1fc 100%);
   min-height: 100vh;
+  width: 100%;
 }
 
 .app {
   min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -20,14 +22,16 @@ body {
   background: white;
   box-shadow: 0 2px 12px rgba(0,0,0,0.1);
   padding: 20px 0;
+  width: 100%;
 }
 
 .header-content {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 40px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -57,6 +61,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
+  width: 100%;
 }
 
 .tab-button {
@@ -85,6 +90,10 @@ body {
 .app-content {
   flex: 1;
   padding: 40px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .app-footer {

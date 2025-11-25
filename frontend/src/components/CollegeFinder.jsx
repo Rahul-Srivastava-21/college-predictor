@@ -19,6 +19,9 @@ const CollegeFinder = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [branchOptions, setBranchOptions] = useState([]);
+  const [sortBy, setSortBy] = useState('chance'); // 'chance', 'cutoff', 'safety'
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 20;
 
   // Category options based on exam type
   const categoryOptions = {
@@ -163,6 +166,7 @@ const CollegeFinder = () => {
     setLoading(true);
     setError(null);
     setResults(null);
+    setCurrentPage(1);
 
     try {
       const data = await findColleges(formData);
@@ -198,6 +202,42 @@ const CollegeFinder = () => {
   const getSafetyIcon = (level) => {
     return level === 'Safe' ? <FaCheckCircle /> : <FaExclamationCircle />;
   };
+
+  // Sorting logic
+  const getSortedColleges = () => {
+    if (!results || !results.colleges) return [];
+    
+    const sorted = [...results.colleges];
+    
+    switch(sortBy) {
+      case 'chance':
+        // Best chance first (highest to lowest)
+        return sorted.sort((a, b) => b.admission_chance - a.admission_chance);
+      case 'cutoff':
+        // Lowest cutoff first (easier to get in)
+        return sorted.sort((a, b) => a.predicted_cutoff - b.predicted_cutoff);
+      case 'safety':
+        // Safe -> Moderate -> Reach
+        const safetyOrder = { 'Safe': 0, 'Moderate': 1, 'Reach': 2 };
+        return sorted.sort((a, b) => {
+          const orderDiff = safetyOrder[a.safety_level] - safetyOrder[b.safety_level];
+          if (orderDiff !== 0) return orderDiff;
+          return b.admission_chance - a.admission_chance;
+        });
+      default:
+        return sorted;
+    }
+  };
+
+  // Pagination logic
+  const getPaginatedColleges = () => {
+    const sortedColleges = getSortedColleges();
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    return sortedColleges.slice(startIndex, endIndex);
+  };
+
+  const totalPages = results ? Math.ceil(getSortedColleges().length / itemsPerPage) : 0;
 
   return (
     <div className="college-finder">
@@ -326,13 +366,28 @@ const CollegeFinder = () => {
             <p>For rank: <strong>{results.user_rank}</strong></p>
           </div>
 
+          {results.colleges.length > 0 && (
+            <div className="sort-controls">
+              <label>Sort by:</label>
+              <select value={sortBy} onChange={(e) => { setSortBy(e.target.value); setCurrentPage(1); }}>
+                <option value="chance">Best Chance First</option>
+                <option value="cutoff">Lowest Cutoff First</option>
+                <option value="safety">Safety Level</option>
+              </select>
+              <span className="showing-count">
+                Showing {((currentPage - 1) * itemsPerPage) + 1}-{Math.min(currentPage * itemsPerPage, getSortedColleges().length)} of {getSortedColleges().length}
+              </span>
+            </div>
+          )}
+
           {results.colleges.length === 0 ? (
             <div className="no-results">
               <p>No colleges found matching your criteria. Try adjusting your filters.</p>
             </div>
           ) : (
+            <>
             <div className="colleges-list">
-              {results.colleges.map((college, index) => (
+              {getPaginatedColleges().map((college, index) => (
                 <div key={index} className={`college-card${college.is_unstable ? ' unstable' : ''}`}>
                   <div className="college-header">
                     <FaUniversity className="college-icon" />
@@ -403,6 +458,52 @@ const CollegeFinder = () => {
                 </div>
               ))}
             </div>
+
+            {totalPages > 1 && (
+              <div className="pagination">
+                <button 
+                  onClick={() => setCurrentPage(prev => Math.max(1, prev - 1))}
+                  disabled={currentPage === 1}
+                  className="page-btn"
+                >
+                  Previous
+                </button>
+                
+                <div className="page-numbers">
+                  {[...Array(totalPages)].map((_, i) => {
+                    const pageNum = i + 1;
+                    // Show first page, last page, current page, and pages around current
+                    if (
+                      pageNum === 1 ||
+                      pageNum === totalPages ||
+                      (pageNum >= currentPage - 2 && pageNum <= currentPage + 2)
+                    ) {
+                      return (
+                        <button
+                          key={pageNum}
+                          onClick={() => setCurrentPage(pageNum)}
+                          className={`page-btn ${currentPage === pageNum ? 'active' : ''}`}
+                        >
+                          {pageNum}
+                        </button>
+                      );
+                    } else if (pageNum === currentPage - 3 || pageNum === currentPage + 3) {
+                      return <span key={pageNum} className="page-dots">...</span>;
+                    }
+                    return null;
+                  })}
+                </div>
+
+                <button 
+                  onClick={() => setCurrentPage(prev => Math.min(totalPages, prev + 1))}
+                  disabled={currentPage === totalPages}
+                  className="page-btn"
+                >
+                  Next
+                </button>
+              </div>
+            )}
+            </>
           )}
         </div>
       )}

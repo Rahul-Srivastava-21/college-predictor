@@ -39,7 +39,6 @@ function App() {
       </main>
 
       <footer className="app-footer">
-        <p>© 2024 College Predictor | Powered by Machine Learning Ensemble Models</p>
         <p className="disclaimer">
           *Predictions are based on historical data and ML models. Actual cutoffs may vary.
         </p>

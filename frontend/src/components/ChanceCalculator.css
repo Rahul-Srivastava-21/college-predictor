@@ -1,5 +1,6 @@
 .chance-calculator {
-  max-width: 900px;
+  max-width: 1400px;
+  width: 100%;
   margin: 0 auto;
   padding: 20px;
 }
@@ -60,6 +61,12 @@
   border-radius: 8px;
   font-size: 14px;
   transition: border-color 0.3s;
+  color: #1f2937;
+  background: white;
+}
+
+.form-group input::placeholder {
+  color: #9ca3af;
 }
 
 .form-group input:focus,

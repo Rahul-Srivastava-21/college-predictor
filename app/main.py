@@ -489,13 +489,13 @@ def find_colleges(input_data: CollegeFinderInput):
         safety_order = {"Safe": 0, "Moderate": 1, "Reach": 2}
         results.sort(key=lambda x: (safety_order[x["safety_level"]], x["predicted_cutoff"]))
         
-        logger.info(f"Found {len(results)} eligible colleges")
+        logger.info(f"Found {len(results)} eligible colleges, returning all results")
         
         return {
             "success": True,
             "user_rank": user_rank,
             "total_options": len(results),
-            "colleges": results[:50]  # Limit to top 50
+            "colleges": results  # Return all results instead of limiting to 50
         }
         
     except Exception as e:
