@@ -1,0 +1,10 @@
+{
+  "temporal_encoders_pickle": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\stage2_outputs\\temporal_encoders.pkl",
+  "enc_College_Code_json": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\stage2_outputs\\enc_College_Code_temporal.json",
+  "enc_Branch_json": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\stage2_outputs\\enc_Branch_temporal.json",
+  "enc_Category_json": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\stage2_outputs\\enc_Category_temporal.json",
+  "tier_enc_medians": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\stage2_outputs\\tier_enc_medians.json",
+  "scaler_joblib": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\stage2_outputs\\stage2_numeric_scaler.joblib",
+  "final_csv_processed": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\processed_data\\KCET_stage2_final_with_encoders.csv",
+  "final_csv_stage2out": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\stage2_outputs\\KCET_stage2_final_with_encoders.csv"
+}

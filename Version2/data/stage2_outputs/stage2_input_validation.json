@@ -1,0 +1,30 @@
+{
+  "source": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\processed_data\\Stage1Files\\kcet_normalized.csv",
+  "summary": {
+    "rows": 212487,
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "min_cutoff": 93.0,
+    "max_cutoff": 274884.0,
+    "median_cutoff": 73303.0,
+    "missing_cutoff": 0,
+    "unique_colleges": 223,
+    "unique_branches": 150,
+    "unique_categories": 48
+  },
+  "artifacts_available": {
+    "year_max_ranks": true,
+    "college_medians": true,
+    "tier_map": true,
+    "unstable_branches": false
+  },
+  "leakage_checks": {
+    "suspicious_cols": [],
+    "duplicate_key_count": 0
+  }
+}

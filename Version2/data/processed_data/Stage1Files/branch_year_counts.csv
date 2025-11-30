@@ -1,0 +1,426 @@
+Year,Branch,Count
+2020,"AD Artificial Intel, Data Sc",75
+2020,AE Aeronaut.Engg,405
+2020,AI Artificial Intelligence,979
+2020,AT Automotive Engg.,3
+2020,AU Automobile,89
+2020,BC Computer Tech.,28
+2020,BD CS- Big Data,26
+2020,BE Bio-Electronics Engg.,16
+2020,BI Information Tech.,19
+2020,BM Bio Medical,69
+2020,BT Bio Technology,538
+2020,CB Comp. Sc. and Bus Sys.,84
+2020,CC Computer and Comm. Engg.,36
+2020,CE Civil,2578
+2020,CH Chemical,224
+2020,CI Computer and Information,48
+2020,CO Computer Engineering,45
+2020,CR Ceramics,2
+2020,CS Computers,7127
+2020,CT Const. Tech. Mgmt.,18
+2020,CY CS- Cyber Security,79
+2020,DS Comp. Sc. Engg- Data Sc.,144
+2020,EC Electronics,4463
+2020,EE Electrical,1975
+2020,EI Elec. Inst. Engg,401
+2020,EN Environmental,51
+2020,ER Electrical and Computer,12
+2020,ES Electronics and Computer,20
+2020,ET Elec. Telecommn.,108
+2020,"IC IoT, Cyber Security",2
+2020,IE Info.Science,2878
+2020,II EC -Industrial Integrated,31
+2020,IM Ind. Engg. Mgmt.,194
+2020,IO CS- Internet of Things,21
+2020,IP Ind.Prodn.,125
+2020,LC CS- Block Chain,6
+2020,MC Mathamatics and Computing,3
+2020,MD Med.Elect.,136
+2020,ME Mechanical,1404
+2020,"MM Mechanical, Smart Manf.",12
+2020,MN Mining,1
+2020,MR Marine Engineering,21
+2020,MT Mechatronics,42
+2020,OP Comp. Sc. Engg- Dev Ops,10
+2020,PL Petroleum Engineering,3
+2020,PT Polymer Tech.,24
+2020,RO Auto. And Robot.,86
+2020,SE Aero Space Engg.,240
+2020,SS CS and System Engg,35
+2020,ST Silk Tech.,30
+2020,TC Telecommn.,212
+2020,TX Textiles,46
+2020,UP Planning,12
+2021,"AD Artificial Intel, Data Sc",745
+2021,AE Aeronaut.Engg,601
+2021,AI Artificial Intelligence,2184
+2021,AT Automotive Engg.,14
+2021,AU Automobile,72
+2021,BD CS- Big Data,34
+2021,BE Bio-Electronics Engg.,23
+2021,BM Bio Medical,76
+2021,BR BioMed. and Robotic Engg,11
+2021,BS B.Sc (Honours),112
+2021,BT Bio Technology,522
+2021,"CA CS (AI, Machine Learning)",659
+2021,CB Comp. Sc. and Bus Sys.,165
+2021,CC Computer and Comm. Engg.,36
+2021,CD Computer Sc. and Design,388
+2021,CE Civil,2690
+2021,CF CS(Artificial Intel.),69
+2021,CG Computer Science and Tech,88
+2021,CH Chemical,269
+2021,CI Computer and Information,54
+2021,CK Civil Engg (Kannada),3
+2021,CO Computer Engineering,93
+2021,CR Ceramics,3
+2021,CS Computers,9806
+2021,CT Const. Tech. Mgmt.,17
+2021,CV Civil Environment Engg,3
+2021,CY CS- Cyber Security,186
+2021,DS Comp. Sc. Engg- Data Sc.,406
+2021,EA Agriculture Engineering,77
+2021,EC Electronics,7673
+2021,EE Electrical,2763
+2021,EG Energy Engineering,1
+2021,EI Elec. Inst. Engg,414
+2021,"EL Electronics, Instr. Tech.",54
+2021,EN Environmental,27
+2021,ER Electrical and Computer,34
+2021,ES Electronics and Computer,66
+2021,ET Elec. Telecommn. Engg.,359
+2021,"IC CS-IoT, Cyber Security",55
+2021,IE Info.Science,3972
+2021,IG Information Technology,71
+2021,II EC -Industrial Integrated,38
+2021,IM Ind. Engg. Mgmt.,211
+2021,IO CS- Internet of Things,61
+2021,IP Ind.Prodn.,153
+2021,IS Information Sc. and Tech.,36
+2021,LC CS- Block Chain,33
+2021,MC Mathamatics and Computing,18
+2021,MD Med.Elect.,136
+2021,ME Mechanical,1598
+2021,"MM Mechanical, Smart Manf.",40
+2021,MN Mining Engineering,11
+2021,MR Marine Engineering,11
+2021,MT Mechatronics,56
+2021,OP Comp. Sc. Engg- Dev Ops,31
+2021,OT Industrial IOT,7
+2021,PL Petroleum Engineering,19
+2021,PT Polymer Tech.,12
+2021,RA Robotics and Automation,159
+2021,RB Robotics,29
+2021,RI Robotics and AI,33
+2021,RO Auto. And Robot.,44
+2021,SE Aero Space Engg.,280
+2021,SS CS and System Engg,39
+2021,ST Silk Tech.,29
+2021,TC Telecommn.,28
+2021,TX Textiles,60
+2021,UP Planning,17
+2022,"AD Artificial Intel, Data Sc",1163
+2022,AE Aeronaut.Engg,449
+2022,AI Artificial Intelligence,2815
+2022,AT Automotive Engg.,11
+2022,AU Automobile,62
+2022,BD CS- Big Data,35
+2022,BM Bio Medical,54
+2022,BR BioMed. and Robotic Engg,22
+2022,BT Bio Technology,429
+2022,"CA CS (AI, Machine Learning)",1389
+2022,CB Comp. Sc. and Bus Sys.,426
+2022,CC Computer and Comm. Engg.,36
+2022,CD Computer Sc. and Design,556
+2022,CE Civil,1750
+2022,CF CS(Artificial Intel.),228
+2022,CG Computer Science and Tech,92
+2022,CH Chemical,210
+2022,CI Computer and Information,60
+2022,CK Civil Engg (Kannada),3
+2022,CO Computer Engineering,92
+2022,CR Ceramics,4
+2022,CS Computers,11021
+2022,CT Const. Tech. Mgmt.,8
+2022,CV Civil Environment Engg,8
+2022,CY CS- Cyber Security,393
+2022,DS Comp. Sc. Engg- Data Sc.,1601
+2022,EA Agriculture Engineering,94
+2022,EC Electronics,8117
+2022,EE Electrical,2911
+2022,EG Energy Engineering,5
+2022,EI Elec. Inst. Engg,442
+2022,EN Environmental,32
+2022,ES Electronics and Computer,133
+2022,ET Elec. Telecommn. Engg.,403
+2022,EV EC Engg(VLSI Design),66
+2022,IB CS-IoT Block Chain,30
+2022,IE Info.Science,4350
+2022,IG Information Technology,73
+2022,II EC -Industrial Integrated,33
+2022,IM Ind. Engg. Mgmt.,163
+2022,IO CS- Internet of Things,487
+2022,IP Ind.Prodn.,84
+2022,IS Information Sc. and Tech.,52
+2022,IY CS-IT-Cyber Security,37
+2022,LA B Plan,6
+2022,LC CS- Block Chain,28
+2022,MC Mathematics and Computing,15
+2022,MD Med.Elect.,99
+2022,ME Mechanical,1321
+2022,"MM Mechanical, Smart Manf.",17
+2022,MN Mining Engineering,5
+2022,MR Marine Engineering,9
+2022,MT Mechatronics,55
+2022,OP Comp. Sc. Engg- Dev Ops,33
+2022,PL Petroleum Engineering,11
+2022,PT Polymer Tech.,26
+2022,RA Robotics and Automation,131
+2022,RB Robotics,19
+2022,RI Robotics and AI,115
+2022,RM CS-RO Engg-AI and ML,32
+2022,RO Auto. And Robot.,79
+2022,SA Smart Agritech,8
+2022,SE Aero Space Engg.,220
+2022,SS CS and System Engg,33
+2022,ST Silk Tech.,20
+2022,TI Industrial IoT,12
+2022,TX Textiles,33
+2022,UP Planning,10
+2023,"AD Artificial Intel, Data Sc",1402
+2023,AE Aeronaut.Engg,627
+2023,AI Artificial Intelligence,3125
+2023,AM B Tech in AM,314
+2023,AT Automotive Engg.,14
+2023,AU Automobile,65
+2023,BA B.Tech(Agri.Engg),17
+2023,BB B Tech in EC,553
+2023,BF B Tech in DS,15
+2023,BG B Tech in AD,57
+2023,BH B Tech in AI,96
+2023,BJ B Tech in EE,234
+2023,BK B Tech in EN,3
+2023,BL B Tech in AS,126
+2023,BM Bio Medical,78
+2023,BN B Tech in BD,35
+2023,BO B Tech in BT,33
+2023,BP B Tech in CE,74
+2023,BQ B Tech in CG,82
+2023,BR BioMed. and Robotic Engg,31
+2023,BT Bio Technology,439
+2023,BU B Tech in CI,99
+2023,BV B Tech in CO,56
+2023,BW B Tech in CS,986
+2023,BX B Tech in CY,99
+2023,BY B Tech in DO,38
+2023,BZ B Tech in DS,129
+2023,"CA CS (AI, Machine Learning)",1792
+2023,CB Comp. Sc. and Bus Sys.,613
+2023,CC Computer and Comm. Engg.,36
+2023,CD Computer Sc. and Design,663
+2023,CE Civil,1848
+2023,CF CS(Artificial Intel.),266
+2023,CH Chemical,259
+2023,CK Civil Engg (Kannada),1
+2023,CL B Tech in EO,29
+2023,CM B Tech in EV,71
+2023,CN B Tech in IB,39
+2023,CO Computer Engineering,139
+2023,CQ B Tech in IO,50
+2023,CR Ceramics,3
+2023,CS Computers,10961
+2023,CT Const. Tech. Mgmt.,12
+2023,CU B Tech in IS,171
+2023,CV Civil Environment Engg,10
+2023,CW B Tech in IT,125
+2023,CX B Tech in IY,49
+2023,CY CS- Cyber Security,602
+2023,CZ B Tech in LC,36
+2023,DA B Tech in MC,21
+2023,DB B Tech in ME,134
+2023,DC Data Sciences,56
+2023,DD B Tech in MS,34
+2023,DE B Tech in PE,21
+2023,DF B Tech in RA,35
+2023,DG DG,23
+2023,DH B Tech in RAI,34
+2023,DI B Tech in RE,25
+2023,DJ B Tech in RO,20
+2023,DK B Tech in SS,39
+2023,DL B.TECH IN CS,57
+2023,DM B.TECH IN CS NW,37
+2023,DN B.Tech in VLSI,34
+2023,DS Comp. Sc. Engg- Data Sc.,1635
+2023,EA Agriculture Engineering,109
+2023,EB EAT,36
+2023,EC Electronics,8158
+2023,EE Electrical,3138
+2023,EI Elec. Inst. Engg,436
+2023,EN Environmental,41
+2023,ES Electronics and Computer,206
+2023,ET Elec. Telecommn. Engg.,394
+2023,EV EC Engg(VLSI Design),118
+2023,"IC CS-IoT, Cyber Security",660
+2023,IE Info.Science,4888
+2023,IM Ind. Engg. Mgmt.,182
+2023,IO CS- Internet of Things,51
+2023,IP Ind.Prodn.,48
+2023,LD B Tech in DS,10
+2023,LE B Tech in AIML,12
+2023,LF B Tech in CC,2
+2023,LG B Tech in CS,10
+2023,LH B Tech in IS,2
+2023,LJ B Tech in BS,2
+2023,LK B Tech in IOT,2
+2023,MD Med.Elect.,102
+2023,ME Mechanical,1553
+2023,MK Mechanical Engg (Kannada),1
+2023,"MM Mechanical, Smart Manf.",6
+2023,MR Marine Engineering,28
+2023,MT Mechatronics,53
+2023,OT Industrial IOT,19
+2023,PT Polymer Tech.,22
+2023,RA Robotics and Automation,132
+2023,RI Robotics and AI,153
+2023,RO Auto. And Robot.,62
+2023,SA Smart Agritech,10
+2023,SE Aero Space Engg.,174
+2023,ST Silk Tech.,18
+2023,TC Telecommn.,37
+2023,TX Textiles,20
+2023,UP Planning,13
+2023,ZC CSC,27
+2023,mn Mining Engineering,21
+2024,"AD Artificial Intel, Data Sc",1473
+2024,AE Aeronaut.Engg,569
+2024,AI Artificial Intelligence,3552
+2024,AM B Tech in AM,414
+2024,AR Architecture,291
+2024,AT Automotive Engg.,13
+2024,AU Automobile,110
+2024,BA B.Tech(Agri.Engg),21
+2024,BB B Tech in EC,725
+2024,BF B Tech in DS,39
+2024,BG B Tech in AD,301
+2024,BH B Tech in AI,151
+2024,BJ B Tech in EE,273
+2024,BK B Tech in EN,12
+2024,BL B Tech in AS,142
+2024,BM Bio Medical,85
+2024,BN B Tech in BD,42
+2024,BO B Tech in BT,56
+2024,BP B Tech in CE,145
+2024,BQ B Tech in CG,123
+2024,BR BioMed. and Robotic Engg,26
+2024,BT Bio Technology,432
+2024,BU B Tech in CI,92
+2024,BV B Tech in CO,84
+2024,BW B Tech in CS,1327
+2024,BX B Tech in CY,148
+2024,BY B Tech in DO,38
+2024,BZ B Tech in DS,207
+2024,"CA CS (AI, Machine Learning)",2213
+2024,CB Comp. Sc. and Bus Sys.,564
+2024,CC Computer and Comm. Engg.,35
+2024,CD Computer Sc. and Design,661
+2024,CE Civil,3275
+2024,CF CS(Artificial Intel.),306
+2024,CG Computer Science and Tech,29
+2024,CH Chemical,313
+2024,CK Civil Engg (Kannada),6
+2024,CL B Tech in EO,124
+2024,CM B Tech in EV,35
+2024,CN B Tech in IB,39
+2024,CO Computer Engineering,120
+2024,CQ B Tech in IO,93
+2024,CR Ceramics,11
+2024,CS Computers,11334
+2024,CT Const. Tech. Mgmt.,19
+2024,CU B Tech in IS,217
+2024,CV Civil Environment Engg,16
+2024,CW B Tech in IT,120
+2024,CX B Tech in IY,52
+2024,CY CS- Cyber Security,606
+2024,CZ B Tech in LC,41
+2024,DA B Tech in MC,22
+2024,DB B Tech in ME,199
+2024,DC Data Sciences,58
+2024,DD B Tech in MS,26
+2024,DE B Tech in PE,21
+2024,DF B Tech in RA,30
+2024,DG DESIGN,37
+2024,DH B Tech in RAI,113
+2024,DI B Tech in RE,34
+2024,DJ B Tech in RO,21
+2024,DK B Tech in SS,40
+2024,DL B.TECH IN CS,57
+2024,DM B.TECH IN CS NW,41
+2024,DN B.Tech in VLSI,34
+2024,DS Comp. Sc. Engg- Data Sc.,1846
+2024,EA Agriculture Engineering,131
+2024,EB EAT,39
+2024,EC Electronics,8234
+2024,EE Electrical,3220
+2024,EI Elec. Inst. Engg,348
+2024,"EL Electronics, Instr. Tech.",57
+2024,EN Environmental,45
+2024,ER Electrical and Computer,13
+2024,ES Electronics and Computer,249
+2024,ET Elec. Telecommn. Engg.,336
+2024,EV EC Engg(VLSI Design),193
+2024,EZ ELECTRONICS AND COMPUT,28
+2024,"IC CS-IoT, Cyber Security",774
+2024,IE Info.Science,4340
+2024,IM Ind. Engg. Mgmt.,212
+2024,IO CS- Internet of Things,26
+2024,IP Ind.Prodn.,92
+2024,IZ INFORMATION SCIENCE,41
+2024,LA B Plan,16
+2024,LD B Tech in DS,46
+2024,LE B Tech in AIML,113
+2024,LF B Tech in CC,34
+2024,LG B Tech in CS,45
+2024,LH B Tech in IS,32
+2024,LJ B Tech in BS,28
+2024,LK B Tech in IOT,52
+2024,MD Med.Elect.,79
+2024,ME Mechanical,2955
+2024,MI Mining Engineering,18
+2024,MK Mechanical Engg (Kannada),9
+2024,"MM Mechanical, Smart Manf.",20
+2024,MR Marine Engineering,29
+2024,MT Mechatronics,65
+2024,OT Industrial IOT,17
+2024,PT Polymer Tech.,33
+2024,RA Robotics and Automation,142
+2024,RI Robotics and AI,406
+2024,RO Auto. And Robot.,61
+2024,SE Aero Space Engg.,207
+2024,ST Silk Tech.,21
+2024,TC Telecommn.,23
+2024,TX Textiles,52
+2024,UP Planning,8
+2024,UR Planning,1
+2024,YA B.TEHIN COM.SCE.ENG(ROBO),28
+2024,YB B.TECH IN CS.ENG(DAT ANA),32
+2024,YC B.TECH IN EMD. SYS. VLSI,22
+2024,YD B.TECH IN CS AND ARTI INT,33
+2024,YE B.TECH IN CIV.CONST.SUST.,10
+2024,YF B.TECH IN ELECT ENGG. CS.,28
+2024,YG B.TECH IN EC.ENG.VSLI EMD,27
+2024,YH ENGINEERING DESIGN,20
+2024,YI B.TECH IN MECHANICAL,21
+2024,ZA B TECH IN AERONAUT. ENGG.,35
+2024,ZC CSC,117
+2024,ZH B TECH IN COMP.SC.ART.INT,35
+2024,ZL CIVIL ENG. WITH COMP.APPL,11
+2024,ZM B.TECH IN COMP.SCI. DESI.,42
+2024,ZN B.TECH IN PHARM. ENGG.,14
+2024,ZO B.TECH IN CS.AND BUSI.SYS,64
+2024,ZQ B.TECH IN IN.TCH.DAT.ANAL,26
+2024,ZR COMP.SCE.AND ENG(ART.INT),55
+2024,ZT B.TECH. IN MECH.SMAR.MANU,13
+2024,ZU CYBER SECURITY,30
+2024,ZV B.TECH.IN INF.TEC.AUG.REA,26
+2024,ZW COMP. SCE. AND ENG (AIML),56

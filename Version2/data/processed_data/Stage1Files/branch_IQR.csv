@@ -1,0 +1,161 @@
+Branch,Cutoff_Rank
+UR Planning,0.0
+MN Mining,0.0
+AR Architecture,256.5
+EG Energy Engineering,3183.75
+MN Mining Engineering,8789.0
+IB CS-IoT Block Chain,17437.25
+MC Mathematics and Computing,18863.5
+SA Smart Agritech,22870.25
+IY CS-IT-Cyber Security,24592.0
+ZH B TECH IN COMP.SC.ART.INT,25427.5
+TI Industrial IoT,29304.75
+CI Computer and Information,31250.25
+IS Information Sc. and Tech.,32061.0
+BC Computer Tech.,32117.25
+CK Civil Engg (Kannada),34530.0
+ET Elec. Telecommn.,34664.75
+II EC -Industrial Integrated,34874.0
+CV Civil Environment Engg,39793.0
+BY B Tech in DO,40554.75
+DG DG,42202.0
+DM B.TECH IN CS NW,42261.75
+SS CS and System Engg,42603.0
+BK B Tech in EN,42630.0
+CG Computer Science and Tech,44199.0
+RM CS-RO Engg-AI and ML,44829.75
+ZN B.TECH IN PHARM. ENGG.,45069.75
+YI B.TECH IN MECHANICAL,46393.0
+CZ B Tech in LC,46692.0
+IG Information Technology,46749.75
+mn Mining Engineering,47212.0
+MI Mining Engineering,47845.5
+CX B Tech in IY,47943.0
+"IC IoT, Cyber Security",48419.5
+CN B Tech in IB,49125.0
+PL Petroleum Engineering,49479.0
+YE B.TECH IN CIV.CONST.SUST.,49540.0
+DK B Tech in SS,49638.5
+CR Ceramics,50019.0
+BI Information Tech.,50420.0
+AM B Tech in AM,52100.5
+IO CS- Internet of Things,52874.25
+MK Mechanical Engg (Kannada),53822.0
+CC Computer and Comm. Engg.,54016.5
+BD CS- Big Data,54131.5
+LD B Tech in DS,54259.5
+DD B Tech in MS,54475.75
+YC B.TECH IN EMD. SYS. VLSI,55461.75
+EA Agriculture Engineering,55594.0
+CF CS(Artificial Intel.),55638.0
+DN B.Tech in VLSI,56016.0
+ER Electrical and Computer,56935.5
+TC Telecommn.,57504.0
+MT Mechatronics,57798.5
+BU B Tech in CI,58862.5
+BG B Tech in AD,58918.25
+OP Comp. Sc. Engg- Dev Ops,59205.75
+ZT B.TECH. IN MECH.SMAR.MANU,59229.0
+LA B Plan,59415.5
+CT Const. Tech. Mgmt.,59644.0
+EN Environmental,59950.5
+BA B.Tech(Agri.Engg),60107.75
+CS Computers,60977.0
+IP Ind.Prodn.,61019.75
+DL B.TECH IN CS,61233.25
+ET Elec. Telecommn. Engg.,61236.25
+EZ ELECTRONICS AND COMPUT,61294.25
+ZU CYBER SECURITY,61312.5
+BR BioMed. and Robotic Engg,61390.75
+EB EAT,61479.0
+DJ B Tech in RO,61540.0
+IE Info.Science,61618.0
+CD Computer Sc. and Design,62096.25
+ZW COMP. SCE. AND ENG (AIML),62271.25
+PT Polymer Tech.,62705.0
+LG B Tech in CS,62808.5
+BN B Tech in BD,62887.0
+"AD Artificial Intel, Data Sc",63204.75
+BT Bio Technology,63490.0
+AT Automotive Engg.,63540.5
+BE Bio-Electronics Engg.,63695.5
+LC CS- Block Chain,63750.0
+YG B.TECH IN EC.ENG.VSLI EMD,64243.0
+ZV B.TECH.IN INF.TEC.AUG.REA,64798.5
+"EL Electronics, Instr. Tech.",64882.0
+ZA B TECH IN AERONAUT. ENGG.,65639.5
+"CA CS (AI, Machine Learning)",66149.0
+DS Comp. Sc. Engg- Data Sc.,67411.25
+AI Artificial Intelligence,67424.0
+"MM Mechanical, Smart Manf.",67818.5
+BP B Tech in CE,68252.5
+ZC CSC,68321.25
+MR Marine Engineering,68605.75
+EI Elec. Inst. Engg,68836.0
+BL B Tech in AS,69003.0
+AE Aeronaut.Engg,69240.0
+BM Bio Medical,69261.25
+SE Aero Space Engg.,69457.0
+CO Computer Engineering,69661.0
+MD Med.Elect.,69938.5
+IM Ind. Engg. Mgmt.,69962.75
+YA B.TEHIN COM.SCE.ENG(ROBO),70226.0
+BW B Tech in CS,70256.0
+DA B Tech in MC,70335.0
+RB Robotics,70855.25
+BO B Tech in BT,70895.0
+DE B Tech in PE,71034.25
+OT Industrial IOT,71647.0
+ES Electronics and Computer,72273.0
+MC Mathamatics and Computing,72442.0
+LH B Tech in IS,72688.5
+BS B.Sc (Honours),72824.25
+RA Robotics and Automation,73102.0
+BX B Tech in CY,73413.5
+CB Comp. Sc. and Bus Sys.,73531.5
+DC Data Sciences,73571.0
+YH ENGINEERING DESIGN,73603.0
+BF B Tech in DS,73749.75
+"IC CS-IoT, Cyber Security",73876.0
+BV B Tech in CO,74428.5
+LF B Tech in CC,74584.25
+YD B.TECH IN CS AND ARTI INT,74886.0
+DI B Tech in RE,75144.0
+BQ B Tech in CG,75945.0
+LK B Tech in IOT,76131.5
+EC Electronics,77338.0
+CU B Tech in IS,77366.75
+AU Automobile,79543.75
+UP Planning,80067.25
+TX Textiles,80164.0
+CY CS- Cyber Security,80281.5
+RO Auto. And Robot.,80407.75
+CH Chemical,82058.5
+DG DESIGN,82203.0
+CQ B Tech in IO,82444.5
+EE Electrical,82666.0
+ST Silk Tech.,83905.75
+CW B Tech in IT,85912.0
+ZM B.TECH IN COMP.SCI. DESI.,86221.0
+CE Civil,87764.0
+RI Robotics and AI,87892.0
+IZ INFORMATION SCIENCE,89282.0
+DB B Tech in ME,89500.0
+BB B Tech in EC,89622.5
+CM B Tech in EV,89846.25
+BJ B Tech in EE,90398.0
+LJ B Tech in BS,91299.25
+YB B.TECH IN CS.ENG(DAT ANA),92665.5
+ME Mechanical,93014.0
+BH B Tech in AI,93706.0
+BZ B Tech in DS,93847.75
+EV EC Engg(VLSI Design),95450.0
+ZO B.TECH IN CS.AND BUSI.SYS,97693.0
+DH B Tech in RAI,98271.5
+DF B Tech in RA,102541.0
+LE B Tech in AIML,102627.0
+ZL CIVIL ENG. WITH COMP.APPL,102951.5
+YF B.TECH IN ELECT ENGG. CS.,109316.5
+CL B Tech in EO,119110.0
+ZQ B.TECH IN IN.TCH.DAT.ANAL,124837.0
+ZR COMP.SCE.AND ENG(ART.INT),125104.5
