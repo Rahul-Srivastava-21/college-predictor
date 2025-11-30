@@ -7,3 +7,9 @@ ml-gpu/
 notebooks/kcet_ml_project/data/*.csv
 # - CSVs in any nested subfolders (e.g., stage2_v2_corrected/)
 notebooks/kcet_ml_project/data/**/*.csv
+
+Version2/data/processed_data/KCET_stage2_final_with_encoders.csv
+Version2/data/processed_data/KCET_stage2_final.csv
+Version2/data/processed_data/kcet_normalized.csv
+Version2/data/processed_data/KCET_stage2_dataset.csv
+Version2/data/stage2_outputs/stage2_fe_step1.csv
