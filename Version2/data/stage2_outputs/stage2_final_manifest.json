@@ -1,0 +1,61 @@
+{
+  "total_rows": 212487,
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "train_years": [
+    2020,
+    2021,
+    2022
+  ],
+  "val_year": 2023,
+  "test_year": 2024,
+  "feature_list_path": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\stage2_outputs\\stage2_feature_list.json",
+  "tier_files": {
+    "Tier1": {
+      "rows": 77261,
+      "processed_path": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\processed_data\\KCET_stage2_Tier1.csv",
+      "stage2_out_path": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\stage2_outputs\\KCET_stage2_Tier1.csv"
+    },
+    "Tier2": {
+      "rows": 76275,
+      "processed_path": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\processed_data\\KCET_stage2_Tier2.csv",
+      "stage2_out_path": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\stage2_outputs\\KCET_stage2_Tier2.csv"
+    },
+    "Tier3": {
+      "rows": 58951,
+      "processed_path": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\processed_data\\KCET_stage2_Tier3.csv",
+      "stage2_out_path": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\stage2_outputs\\KCET_stage2_Tier3.csv"
+    }
+  },
+  "tier_splits": {
+    "Tier1": {
+      "train_rows": 42541,
+      "val_rows": 16352,
+      "test_rows": 18368,
+      "train_path": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\stage2_outputs\\Tier1\\tier1_train.csv",
+      "val_path": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\stage2_outputs\\Tier1\\tier1_val.csv",
+      "test_path": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\stage2_outputs\\Tier1\\tier1_test.csv"
+    },
+    "Tier2": {
+      "train_rows": 38399,
+      "val_rows": 18280,
+      "test_rows": 19596,
+      "train_path": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\stage2_outputs\\Tier2\\tier2_train.csv",
+      "val_path": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\stage2_outputs\\Tier2\\tier2_val.csv",
+      "test_path": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\stage2_outputs\\Tier2\\tier2_test.csv"
+    },
+    "Tier3": {
+      "train_rows": 24872,
+      "val_rows": 15067,
+      "test_rows": 19012,
+      "train_path": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\stage2_outputs\\Tier3\\tier3_train.csv",
+      "val_path": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\stage2_outputs\\Tier3\\tier3_val.csv",
+      "test_path": "D:\\Courses\\Global Academy of Technology\\kcet-college-pred\\Version2\\data\\stage2_outputs\\Tier3\\tier3_test.csv"
+    }
+  }
+}
