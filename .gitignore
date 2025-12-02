@@ -13,3 +13,6 @@ Version2/data/processed_data/KCET_stage2_final.csv
 Version2/data/processed_data/kcet_normalized.csv
 Version2/data/processed_data/KCET_stage2_dataset.csv
 Version2/data/stage2_outputs/stage2_fe_step1.csv
+
+# Model files
+Version2/models/random_forest_baseline.pkl
