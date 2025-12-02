@@ -1,0 +1,28 @@
+{
+  "total_rows": 212487,
+  "total_columns": 8,
+  "year_min": 2020,
+  "year_max": 2024,
+  "years_count": 5,
+  "rounds": [
+    1,
+    2,
+    3
+  ],
+  "tiers": [
+    1,
+    2,
+    3
+  ],
+  "colleges": 223,
+  "branches": 150,
+  "categories": 48,
+  "cutoff_min": 93.0,
+  "cutoff_max": 274884.0,
+  "cutoff_median": 73303.0,
+  "missing_cutoff": 0,
+  "duplicates": 3320,
+  "issues": [
+    "\u26a0\ufe0f  3320 duplicate rows (same college+branch+category+year+round)"
+  ]
+}

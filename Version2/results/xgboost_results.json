@@ -1,0 +1,119 @@
+{
+  "model": "XGBoost",
+  "train_time_seconds": 10.193413257598877,
+  "best_iteration": 999,
+  "hyperparameters": {
+    "n_estimators": 1000,
+    "learning_rate": 0.05,
+    "max_depth": 8,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1
+  },
+  "metrics": {
+    "train": {
+      "split": "Train",
+      "r2": 0.9999251550708714,
+      "mae": 288.8858798243836,
+      "rmse": 395.99614491606775,
+      "mape": 0.6763318970962547,
+      "within_500": 83.26403715773309,
+      "within_1000": 97.50783483787193,
+      "within_2000": 99.91634515738347,
+      "samples": 80091
+    },
+    "val": {
+      "split": "Val",
+      "r2": 0.993294916165754,
+      "mae": 1797.1977811638542,
+      "rmse": 4219.388637573917,
+      "mape": 2.526655097382498,
+      "within_500": 39.577644274531224,
+      "within_1000": 62.060804660476975,
+      "within_2000": 82.01954002063232,
+      "samples": 49437
+    },
+    "test": {
+      "split": "Test",
+      "r2": 0.9135926053591525,
+      "mae": 8040.812837262955,
+      "rmse": 20009.596160044024,
+      "mape": 4.63185686060239,
+      "within_500": 29.680519112119708,
+      "within_1000": 47.973547975320905,
+      "within_2000": 66.45450677256932,
+      "samples": 56404
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "prev_round_rank",
+      "importance": 0.5403310656547546
+    },
+    {
+      "feature": "round_rank_change",
+      "importance": 0.14113695919513702
+    },
+    {
+      "feature": "college_branch_hist_median",
+      "importance": 0.1296227127313614
+    },
+    {
+      "feature": "branch_hist_mean",
+      "importance": 0.04878431558609009
+    },
+    {
+      "feature": "college_branch_hist_mean",
+      "importance": 0.0356752946972847
+    },
+    {
+      "feature": "category_hist_median",
+      "importance": 0.03351988643407822
+    },
+    {
+      "feature": "tier_hist_median",
+      "importance": 0.03342176601290703
+    },
+    {
+      "feature": "college_hist_mean",
+      "importance": 0.006111098453402519
+    },
+    {
+      "feature": "branch_hist_std",
+      "importance": 0.005395807325839996
+    },
+    {
+      "feature": "category_hist_std",
+      "importance": 0.004487206693738699
+    },
+    {
+      "feature": "college_branch_hist_std",
+      "importance": 0.004250483121722937
+    },
+    {
+      "feature": "category_hist_mean",
+      "importance": 0.0040078847669065
+    },
+    {
+      "feature": "college_hist_median",
+      "importance": 0.0038622813299298286
+    },
+    {
+      "feature": "branch_hist_median",
+      "importance": 0.003852552967146039
+    },
+    {
+      "feature": "tier_hist_std",
+      "importance": 0.002702009631320834
+    },
+    {
+      "feature": "tier_hist_mean",
+      "importance": 0.001976009225472808
+    },
+    {
+      "feature": "college_hist_std",
+      "importance": 0.000862700049765408
+    }
+  ]
+}

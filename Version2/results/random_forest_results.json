@@ -1,0 +1,115 @@
+{
+  "model": "Random Forest",
+  "train_time_seconds": 32.15036201477051,
+  "hyperparameters": {
+    "n_estimators": 200,
+    "max_depth": 20,
+    "min_samples_split": 10,
+    "min_samples_leaf": 4
+  },
+  "metrics": {
+    "train": {
+      "split": "Train",
+      "r2": 0.9998705156696452,
+      "mae": 93.25704152586006,
+      "rmse": 520.8568436680209,
+      "mape": 0.16611084981927562,
+      "within_500": 97.50658625813138,
+      "within_1000": 98.94245295975827,
+      "within_2000": 99.53802549599831,
+      "samples": 80091
+    },
+    "val": {
+      "split": "Val",
+      "r2": 0.9956115435379183,
+      "mae": 799.4217131354362,
+      "rmse": 3413.5268239324055,
+      "mape": 0.545054127374496,
+      "within_500": 91.21912737423388,
+      "within_1000": 93.26617715476263,
+      "within_2000": 94.22699597467485,
+      "samples": 49437
+    },
+    "test": {
+      "split": "Test",
+      "r2": 0.9006370956486548,
+      "mae": 7549.5469948867985,
+      "rmse": 21457.296732223618,
+      "mape": 3.2667359915672454,
+      "within_500": 79.2922487766825,
+      "within_1000": 81.91972200553153,
+      "within_2000": 82.8682362952982,
+      "samples": 56404
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "prev_round_rank",
+      "importance": 0.8670374860438534
+    },
+    {
+      "feature": "round_rank_change",
+      "importance": 0.1329100756407401
+    },
+    {
+      "feature": "tier_hist_std",
+      "importance": 2.3848773630422086e-05
+    },
+    {
+      "feature": "college_hist_std",
+      "importance": 4.214492630194196e-06
+    },
+    {
+      "feature": "college_branch_hist_std",
+      "importance": 3.231005290908023e-06
+    },
+    {
+      "feature": "branch_hist_std",
+      "importance": 2.9795355681597986e-06
+    },
+    {
+      "feature": "category_hist_std",
+      "importance": 2.3869024782423804e-06
+    },
+    {
+      "feature": "college_hist_median",
+      "importance": 2.228659935974579e-06
+    },
+    {
+      "feature": "college_branch_hist_median",
+      "importance": 2.137527780097713e-06
+    },
+    {
+      "feature": "category_hist_median",
+      "importance": 2.091981303614161e-06
+    },
+    {
+      "feature": "college_branch_hist_mean",
+      "importance": 1.92014076427427e-06
+    },
+    {
+      "feature": "category_hist_mean",
+      "importance": 1.8967168356881e-06
+    },
+    {
+      "feature": "college_hist_mean",
+      "importance": 1.743848015988327e-06
+    },
+    {
+      "feature": "branch_hist_median",
+      "importance": 1.2934543681397294e-06
+    },
+    {
+      "feature": "branch_hist_mean",
+      "importance": 1.2819468580753263e-06
+    },
+    {
+      "feature": "tier_hist_mean",
+      "importance": 8.597467280506566e-07
+    },
+    {
+      "feature": "tier_hist_median",
+      "importance": 3.235832187307929e-07
+    }
+  ]
+}

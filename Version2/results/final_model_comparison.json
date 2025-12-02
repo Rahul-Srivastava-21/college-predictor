@@ -1,0 +1,180 @@
+{
+  "best_model": "LightGBM",
+  "validation_comparison": [
+    {
+      "Model": "LightGBM",
+      "R\u00b2": 0.9958409545108163,
+      "MAE": 1267.3067664491523,
+      "RMSE": 3323.1064863548595,
+      "MAPE (%)": 1.9082968124606272,
+      "Within \u00b11000": 77.13453486255234
+    },
+    {
+      "Model": "Random Forest",
+      "R\u00b2": 0.9956115435379183,
+      "MAE": 799.421713135436,
+      "RMSE": 3413.5268239324055,
+      "MAPE (%)": 0.545054127374496,
+      "Within \u00b11000": 93.26617715476263
+    },
+    {
+      "Model": "XGBoost",
+      "R\u00b2": 0.993294916165754,
+      "MAE": 1797.1977811638542,
+      "RMSE": 4219.388637573917,
+      "MAPE (%)": 2.526655097382498,
+      "Within \u00b11000": 62.060804660476975
+    }
+  ],
+  "test_comparison": [
+    {
+      "Model": "LightGBM",
+      "R\u00b2": 0.9258869058030278,
+      "MAE": 6919.845569048382,
+      "RMSE": 18531.49006284504,
+      "MAPE (%)": 3.717488498710711
+    },
+    {
+      "Model": "XGBoost",
+      "R\u00b2": 0.9135926053591525,
+      "MAE": 8040.812837262955,
+      "RMSE": 20009.596160044024,
+      "MAPE (%)": 4.63185686060239
+    },
+    {
+      "Model": "Random Forest",
+      "R\u00b2": 0.9006370956486548,
+      "MAE": 7549.546994886799,
+      "RMSE": 21457.296732223618,
+      "MAPE (%)": 3.2667359915672463
+    }
+  ],
+  "feature_importance_consensus": [
+    {
+      "Feature": "round_rank_change",
+      "RF": 0.1329100756407401,
+      "XGBoost": 0.14113695919513702,
+      "LightGBM": 6822,
+      "Average": 2274.0913490116122
+    },
+    {
+      "Feature": "prev_round_rank",
+      "RF": 0.8670374860438534,
+      "XGBoost": 0.5403310656547546,
+      "LightGBM": 5817,
+      "Average": 1939.4691228505662
+    },
+    {
+      "Feature": "college_branch_hist_median",
+      "RF": 2.137527780097713e-06,
+      "XGBoost": 0.1296227127313614,
+      "LightGBM": 2600,
+      "Average": 866.7098749500864
+    },
+    {
+      "Feature": "college_branch_hist_mean",
+      "RF": 1.92014076427427e-06,
+      "XGBoost": 0.0356752946972847,
+      "LightGBM": 2141,
+      "Average": 713.6785590716127
+    },
+    {
+      "Feature": "category_hist_median",
+      "RF": 2.091981303614161e-06,
+      "XGBoost": 0.03351988643407822,
+      "LightGBM": 1567,
+      "Average": 522.3445073261385
+    },
+    {
+      "Feature": "branch_hist_mean",
+      "RF": 1.2819468580753263e-06,
+      "XGBoost": 0.04878431558609009,
+      "LightGBM": 1229,
+      "Average": 409.68292853251097
+    },
+    {
+      "Feature": "college_hist_median",
+      "RF": 2.228659935974579e-06,
+      "XGBoost": 0.0038622813299298286,
+      "LightGBM": 1113,
+      "Average": 371.0012881699966
+    },
+    {
+      "Feature": "college_branch_hist_std",
+      "RF": 3.231005290908023e-06,
+      "XGBoost": 0.004250483121722937,
+      "LightGBM": 1111,
+      "Average": 370.3347512380424
+    },
+    {
+      "Feature": "college_hist_mean",
+      "RF": 1.743848015988327e-06,
+      "XGBoost": 0.006111098453402519,
+      "LightGBM": 1050,
+      "Average": 350.0020376141005
+    },
+    {
+      "Feature": "category_hist_mean",
+      "RF": 1.8967168356881e-06,
+      "XGBoost": 0.0040078847669065,
+      "LightGBM": 995,
+      "Average": 331.6680032604946
+    },
+    {
+      "Feature": "category_hist_std",
+      "RF": 2.3869024782423804e-06,
+      "XGBoost": 0.004487206693738699,
+      "LightGBM": 810,
+      "Average": 270.0014965311987
+    },
+    {
+      "Feature": "college_hist_std",
+      "RF": 4.214492630194196e-06,
+      "XGBoost": 0.000862700049765408,
+      "LightGBM": 801,
+      "Average": 267.0002889715141
+    },
+    {
+      "Feature": "branch_hist_median",
+      "RF": 1.2934543681397294e-06,
+      "XGBoost": 0.003852552967146039,
+      "LightGBM": 793,
+      "Average": 264.3346179488072
+    },
+    {
+      "Feature": "branch_hist_std",
+      "RF": 2.9795355681597986e-06,
+      "XGBoost": 0.005395807325839996,
+      "LightGBM": 577,
+      "Average": 192.3351329289538
+    },
+    {
+      "Feature": "tier_hist_median",
+      "RF": 3.235832187307929e-07,
+      "XGBoost": 0.03342176601290703,
+      "LightGBM": 398,
+      "Average": 132.6778073631987
+    },
+    {
+      "Feature": "tier_hist_std",
+      "RF": 2.3848773630422086e-05,
+      "XGBoost": 0.002702009631320834,
+      "LightGBM": 116,
+      "Average": 38.66757528613498
+    },
+    {
+      "Feature": "tier_hist_mean",
+      "RF": 8.597467280506566e-07,
+      "XGBoost": 0.001976009225472808,
+      "LightGBM": 110,
+      "Average": 36.66732562299074
+    }
+  ],
+  "summary": {
+    "total_models_trained": 3,
+    "validation_samples": 49437,
+    "test_samples": 56404,
+    "best_val_r2": 0.9958409545108163,
+    "best_val_mae": 1267.3067664491523
+  }
+}

@@ -1,0 +1,15 @@
+Category,Actual,Predicted,Error,Error_Pct,Imputation
+1G,7802,10685.08,2883.08,36.95,exact_match
+2AG,8424,9253.64,829.64,9.85,exact_match
+2AR,9358,9283.18,-74.82,-0.8,exact_match
+2BG,11781,11109.3,-671.7,-5.7,exact_match
+3AG,6904,6042.47,-861.53,-12.48,exact_match
+3BG,6584,6464.85,-119.15,-1.81,exact_match
+GM,6389,5402.32,-986.68,-15.44,exact_match
+GMK,9379,7206.25,-2172.75,-23.17,exact_match
+GMR,7574,7698.69,124.69,1.65,exact_match
+SCG,26425,24923.73,-1501.27,-5.68,exact_match
+SCK,41199,35682.29,-5516.71,-13.39,exact_match
+SCR,33087,36291.69,3204.69,9.69,exact_match
+STG,25226,23061.52,-2164.48,-8.58,exact_match
+STR,27201,31048.96,3847.96,14.15,exact_match

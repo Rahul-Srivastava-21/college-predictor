@@ -1,0 +1,9 @@
+{
+  "target_shuffle_r2": 0.005480887052786487,
+  "target_shuffle_rmse": 51387.08587732257,
+  "year_predictability_acc": 1.0,
+  "year_baseline_acc": 0.5,
+  "generalization_r2": 0.9952131626503529,
+  "high_corr_features": 1,
+  "total_features": 17
+}

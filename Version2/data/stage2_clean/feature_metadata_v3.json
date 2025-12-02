@@ -1,0 +1,87 @@
+{
+  "version": "v3",
+  "total_features": 22,
+  "feature_names": [
+    "college_hist_median",
+    "college_hist_mean",
+    "college_hist_count",
+    "college_hist_std",
+    "branch_hist_median",
+    "branch_hist_mean",
+    "branch_hist_count",
+    "branch_hist_std",
+    "category_hist_median",
+    "category_hist_mean",
+    "category_hist_count",
+    "category_hist_std",
+    "college_branch_hist_median",
+    "college_branch_hist_mean",
+    "college_branch_hist_count",
+    "college_branch_hist_std",
+    "tier_hist_median",
+    "tier_hist_mean",
+    "tier_hist_count",
+    "tier_hist_std",
+    "prev_round_rank",
+    "round_rank_change"
+  ],
+  "identifier_cols": [
+    "College_Code",
+    "Branch",
+    "Category",
+    "College_Tier",
+    "Round",
+    "Year",
+    "Exam_Type"
+  ],
+  "target_col": "Cutoff_Rank",
+  "train_years": [
+    2021,
+    2022
+  ],
+  "val_year": 2023,
+  "test_year": 2024,
+  "changes_from_v2": "Removed Year 2020 from training to eliminate year leakage (zero variance issue)",
+  "train_size": 80091,
+  "val_size": 49437,
+  "test_size": 56404,
+  "feature_categories": {
+    "college_historical": [
+      "college_hist_median",
+      "college_hist_mean",
+      "college_hist_count",
+      "college_hist_std"
+    ],
+    "branch_historical": [
+      "branch_hist_median",
+      "branch_hist_mean",
+      "branch_hist_count",
+      "branch_hist_std"
+    ],
+    "category_historical": [
+      "category_hist_median",
+      "category_hist_mean",
+      "category_hist_count",
+      "category_hist_std"
+    ],
+    "college_branch_interaction": [
+      "college_branch_hist_median",
+      "college_branch_hist_mean",
+      "college_branch_hist_count",
+      "college_branch_hist_std"
+    ],
+    "tier_aggregates": [
+      "tier_hist_median",
+      "tier_hist_mean",
+      "tier_hist_count",
+      "tier_hist_std"
+    ],
+    "round_progression": [
+      "Round",
+      "prev_round_rank",
+      "round_rank_change"
+    ]
+  },
+  "causality_guarantee": "All features use ONLY past data (Year < current_year)",
+  "leakage_fix": "Excluded Year 2020 (zero variance) from training to prevent perfect year identification"
+}

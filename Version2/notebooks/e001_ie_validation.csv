@@ -1,0 +1,16 @@
+Category,Actual,Predicted,Error,Error_Pct,Imputation
+1G,7596,8731.39,1135.39,14.95,exact_match
+2AG,8266,8200.91,-65.09,-0.79,exact_match
+2AR,8903,8834.7,-68.3,-0.77,exact_match
+2BG,13090,12241.89,-848.11,-6.48,exact_match
+2BK,40080,30210.83,-9869.17,-24.62,exact_match
+2BR,26793,9207.03,-17585.97,-65.64,college_branch_fallback
+3AG,6767,6001.01,-765.99,-11.32,exact_match
+3BG,6535,5442.5,-1092.5,-16.72,exact_match
+GM,6502,4943.21,-1558.79,-23.97,exact_match
+GMK,10867,9226.96,-1640.04,-15.09,exact_match
+GMR,7653,6441.92,-1211.08,-15.82,exact_match
+SCG,31770,29212.92,-2557.08,-8.05,exact_match
+SCK,33279,9301.57,-23977.43,-72.05,college_branch_fallback
+SCR,28021,35108.18,7087.18,25.29,exact_match
+STG,31963,27614.89,-4348.11,-13.6,exact_match

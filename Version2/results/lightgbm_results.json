@@ -1,0 +1,120 @@
+{
+  "model": "LightGBM",
+  "train_time_seconds": 3.63875412940979,
+  "best_iteration": 935,
+  "hyperparameters": {
+    "n_estimators": 1000,
+    "learning_rate": 0.05,
+    "max_depth": 8,
+    "num_leaves": 31,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1
+  },
+  "metrics": {
+    "train": {
+      "split": "Train",
+      "r2": 0.9997023034485906,
+      "mae": 434.68394413789025,
+      "rmse": 789.7627922025758,
+      "mape": 0.9978823941071947,
+      "within_500": 70.9418036982932,
+      "within_1000": 91.35483387646552,
+      "within_2000": 98.89126119039592,
+      "samples": 80091
+    },
+    "val": {
+      "split": "Val",
+      "r2": 0.9958409545108163,
+      "mae": 1267.3067664491523,
+      "rmse": 3323.1064863548595,
+      "mape": 1.9082968124606272,
+      "within_500": 52.69130408398568,
+      "within_1000": 77.13453486255234,
+      "within_2000": 90.10255476667274,
+      "samples": 49437
+    },
+    "test": {
+      "split": "Test",
+      "r2": 0.9258869058030278,
+      "mae": 6919.845569048382,
+      "rmse": 18531.49006284504,
+      "mape": 3.717488498710711,
+      "within_500": 40.69746826466208,
+      "within_1000": 63.04694702503368,
+      "within_2000": 78.79583008297284,
+      "samples": 56404
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "round_rank_change",
+      "importance": 6822
+    },
+    {
+      "feature": "prev_round_rank",
+      "importance": 5817
+    },
+    {
+      "feature": "college_branch_hist_median",
+      "importance": 2600
+    },
+    {
+      "feature": "college_branch_hist_mean",
+      "importance": 2141
+    },
+    {
+      "feature": "category_hist_median",
+      "importance": 1567
+    },
+    {
+      "feature": "branch_hist_mean",
+      "importance": 1229
+    },
+    {
+      "feature": "college_hist_median",
+      "importance": 1113
+    },
+    {
+      "feature": "college_branch_hist_std",
+      "importance": 1111
+    },
+    {
+      "feature": "college_hist_mean",
+      "importance": 1050
+    },
+    {
+      "feature": "category_hist_mean",
+      "importance": 995
+    },
+    {
+      "feature": "category_hist_std",
+      "importance": 810
+    },
+    {
+      "feature": "college_hist_std",
+      "importance": 801
+    },
+    {
+      "feature": "branch_hist_median",
+      "importance": 793
+    },
+    {
+      "feature": "branch_hist_std",
+      "importance": 577
+    },
+    {
+      "feature": "tier_hist_median",
+      "importance": 398
+    },
+    {
+      "feature": "tier_hist_std",
+      "importance": 116
+    },
+    {
+      "feature": "tier_hist_mean",
+      "importance": 110
+    }
+  ]
+}

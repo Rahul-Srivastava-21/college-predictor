@@ -1,0 +1,50 @@
+{
+  "split_strategy": "temporal",
+  "train_years": [
+    2020,
+    2021,
+    2022
+  ],
+  "val_year": 2023,
+  "test_year": 2024,
+  "train_rows": 104986,
+  "val_rows": 49437,
+  "test_rows": 56404,
+  "total_rows": 210827,
+  "train_pct": 49.8,
+  "val_pct": 23.45,
+  "test_pct": 26.75,
+  "duplicates_removed": 1660,
+  "quality_checks": [
+    "\u2705 No year overlap",
+    "\u2705 Train has all 3 tiers",
+    "\u2705 Val has all 3 tiers",
+    "\u2705 Test has all 3 tiers",
+    "\u2705 Test set shows expected rank inflation"
+  ],
+  "columns": [
+    "College_Code",
+    "Branch",
+    "Category",
+    "College_Tier",
+    "Round",
+    "Year",
+    "Exam_Type",
+    "Cutoff_Rank"
+  ],
+  "train_cutoff_stats": {
+    "min": 93.0,
+    "median": 62525.5,
+    "max": 183210.0
+  },
+  "val_cutoff_stats": {
+    "min": 242.0,
+    "median": 73164.0,
+    "max": 203368.0
+  },
+  "test_cutoff_stats": {
+    "min": 290.0,
+    "median": 98757.0,
+    "max": 274884.0
+  }
+}
